@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-smi: 13px;
+    --font-size-mini: 15px;
+    --font-size-xl: 20px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-mediumseagreen: #45c380;
+    --color-chocolate: #f46913;
+    --color-ghostwhite: #f6f5fb;
+    --color-gray: #7f7f7f;
+    --color-darkslategray: #313131;
+  
+    /* Gaps */
+    --gap-3xs: 10px;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-3xs: 10px;
+    --br-xl: 20px;
+  }
+  .filled-child,
+.filled-item {
+  position: absolute;
+  right: -54px;
+  border-radius: 50%;
+  background-color: var(--color-chocolate);
+  width: 154px;
+  height: 154px;
+}
+.filled-child {
+  top: -51px;
+}
+.filled-item {
+  bottom: -52px;
+}
+.frame-child {
+  position: absolute;
+  top: 51px;
+  left: 32px;
+  background: linear-gradient(150.91deg, #f77d0e, #f35d16);
+  width: 726px;
+  height: 994px;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 943px;
+  left: 1px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 154px;
+  height: 154px;
+}
+.frame-inner {
+  top: 0;
+  left: 0;
+}
+.hrm {
+  color: var(--color-mediumseagreen);
+}
+.anika-hrm {
+  margin: 0;
+  position: absolute;
+  top: 177px;
+  left: 241px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+.girl-writing-her-wish-list-in,
+.pngfind-1-icon {
+  position: absolute;
+  top: 680px;
+  left: 252px;
+  width: 632px;
+  height: 303px;
+  object-fit: cover;
+}
+.girl-writing-her-wish-list-in {
+  top: 154px;
+  left: 68px;
+  width: 655px;
+  height: 655px;
+}
+.logo-1-icon,
+.rectangle-parent {
+  position: absolute;
+  top: -51px;
+  left: -54px;
+  width: 836px;
+  height: 1097px;
+}
+.logo-1-icon {
+  top: 0;
+  left: 224px;
+  width: 239px;
+  height: 221px;
+  object-fit: cover;
+}
+.you-have-already {
+  margin: 0;
+  position: absolute;
+  top: 292px;
+  left: -86px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.we-already-have {
+  margin: 0;
+}
+.we-already-have-container {
+  position: absolute;
+  top: 441px;
+  left: calc(50% - 343.5px);
+  font-size: 36px;
+  color: var(--color-black);
+  text-align: center;
+}
+.logo-1-parent {
+  position: absolute;
+  width: 41.66%;
+  top: calc(50% - 475px);
+  right: 9.7%;
+  left: 48.64%;
+  height: 681px;
+  font-size: 57px;
+  color: #ff7373;
+}
+.filled {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 994px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 65px;
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}

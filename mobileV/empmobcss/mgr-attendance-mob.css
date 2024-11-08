@@ -1,0 +1,193 @@
+.logo-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.attendance-management {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-group {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+}
+.mgrattendance-mob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.mgrattendance-mob-item {
+  position: absolute;
+  width: 100%;
+  top: 64px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(89.98deg, #fb860f, #f55f18);
+  height: 36px;
+}
+.frame-child1,
+.frame-inner,
+.rectangle-a {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 133px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  width: 77px;
+  height: 24px;
+}
+.frame-child1,
+.rectangle-a {
+  left: calc(50% - 53px);
+  background-color: var(--color-bisque);
+}
+.frame-child1 {
+  left: calc(50% + 27px);
+  background-color: var(--color-gainsboro);
+  width: 106px;
+}
+.attendance {
+  left: calc(50% - 122px);
+  color: inherit;
+  width: 57px;
+}
+.attendance,
+.attendance-log,
+.remote-attendance {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 6px);
+  display: inline-block;
+  height: 11px;
+}
+.attendance-log {
+  left: calc(50% - 52px);
+  color: var(--color-orangered);
+  width: 75px;
+}
+.remote-attendance {
+  left: calc(50% + 33px);
+  color: inherit;
+  width: 93px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 98px);
+  width: 266px;
+  height: 24px;
+  font-size: var(--font-size-3xs);
+}
+.frame-icon,
+.vector-icon {
+  position: absolute;
+  top: 40px;
+  left: 267px;
+  width: 26.2px;
+  height: 20.6px;
+}
+.vector-icon {
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fluentperson-clock-20-regular {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akar-iconsdashboard {
+  text-decoration: none;
+  top: 35px;
+  left: 97px;
+  width: 26px;
+  height: 26px;
+}
+.akar-iconsdashboard,
+.uitcalender,
+.vector-icon2 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon2 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.uitcalender {
+  text-decoration: none;
+  top: 13px;
+  left: 194px;
+  width: 27px;
+  height: 27px;
+}
+.frame-parent {
+  position: absolute;
+  bottom: 13px;
+  left: calc(50% - 147px);
+  width: 293.2px;
+  height: 63px;
+}
+.mgrattendance-mob {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

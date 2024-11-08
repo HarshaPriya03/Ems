@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-smi: 13px;
+    --font-size-mini: 15px;
+    --font-size-xl: 20px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-ghostwhite: #f6f5fb;
+    --color-white: #fff;
+    --color-mediumseagreen: #45c380;
+    --color-gray: #7f7f7f;
+    --color-darkslategray: #313131;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-3xs: 10px;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-3xs: 10px;
+    --br-xl: 20px;
+  }
+  .logo-1-icon {
+    position: absolute;
+    top: 58px;
+    left: 12px;
+    width: 41px;
+    height: 38px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .hrm {
+    color: var(--color-mediumseagreen);
+  }
+  .anikahrm {
+    text-decoration: none;
+    position: absolute;
+    top: 59px;
+    left: calc(50% - 59px);
+    color: inherit;
+  }
+  .frame-child {
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    width: 333px;
+    height: 619px;
+    z-index: 0;
+  }
+  .employee-management {
+    text-decoration: none;
+    top: 19px;
+    left: calc(50% - 109.5px);
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    display: inline-block;
+    z-index: 1;
+  }
+  .employee-management,
+  .frame-item,
+  .identity-details {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .identity-details {
+    top: 64px;
+    left: 18px;
+    font-size: var(--font-size-mini);
+    font-weight: 300;
+    font-family: inherit;
+    color: var(--color-black);
+    display: inline-block;
+    width: 117px;
+    height: 18px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .frame-item {
+    top: 92px;
+    left: 7px;
+    width: 319px;
+    height: 1px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .aadhaar-number,
+  .bank-account-number,
+  .bank-name,
+  .ifsc-code,
+  .pan-number {
+    cursor: pointer;
+    position: absolute;
+    margin: 0 !important;
+    top: 114px;
+    left: 18px;
+    font-weight: 300;
+    display: inline-block;
+    width: 108px;
+    height: 21px;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  .aadhaar-number,
+  .bank-account-number,
+  .bank-name,
+  .ifsc-code {
+    top: 186px;
+    left: 20px;
+    z-index: 5;
+  }
+  .bank-account-number,
+  .bank-name,
+  .ifsc-code {
+    top: 258px;
+    width: 138px;
+    z-index: 6;
+  }
+  .bank-name,
+  .ifsc-code {
+    top: 330px;
+    width: 108px;
+    z-index: 7;
+  }
+  .bank-name {
+    top: 402px;
+    left: 18px;
+    z-index: 8;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .frame-inner,
+  .rectangle-input {
+    border: 1px solid var(--color-gray);
+    background-color: var(--color-white);
+    position: absolute;
+    margin: 0 !important;
+    top: 142px;
+    left: 18px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 294px;
+    height: 35px;
+    z-index: 9;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .rectangle-input {
+    top: 214px;
+    left: 20px;
+    z-index: 10;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3 {
+    top: 286px;
+    z-index: 11;
+  }
+  .frame-child2,
+  .frame-child3 {
+    top: 358px;
+    z-index: 12;
+  }
+  .frame-child3 {
+    top: 430px;
+    left: 18px;
+    z-index: 13;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumseagreen);
+    top: 516px;
+    left: 202px;
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 102px;
+    height: 33px;
+    z-index: 14;
+  }
+  .frame-child4,
+  .prev,
+  .rectangle-button,
+  .save {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .frame-child4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumseagreen);
+    top: 515px;
+    left: 17px;
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 102px;
+    height: 34px;
+    z-index: 15;
+  }
+  .prev,
+  .save {
+    text-decoration: none;
+    top: 525px;
+    left: 237px;
+    color: var(--color-white);
+    display: inline-block;
+    width: 53px;
+    height: 17px;
+    flex-shrink: 0;
+    z-index: 16;
+  }
+  .prev {
+    top: 524px;
+    left: 54px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 17;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: calc(50% - 281.5px);
+    left: calc(50% - 166px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-smi);
+    color: var(--color-darkslategray);
+  }
+  .emailformmob2 {
+    position: relative;
+    background-color: var(--color-ghostwhite);
+    width: 100%;
+    height: 789px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-rubik);
+  }
+  

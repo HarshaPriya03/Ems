@@ -1,0 +1,571 @@
+.bg1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-ghostwhite);
+  height: 994px;
+}
+.salary-child,
+.salary-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.salary-child {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 81px;
+}
+.salary-item {
+  border-radius: var(--br-11xs) var(--br-52xl) var(--br-52xl) var(--br-11xs);
+  width: 366px;
+  height: 994px;
+}
+.hrm1 {
+  color: var(--color-mediumseagreen);
+}
+.anikahrm1,
+.employee-management1 {
+  text-decoration: none;
+  position: absolute;
+  font-size: var(--font-size-19xl);
+}
+.anikahrm1 {
+  top: 157px;
+  left: 90px;
+  color: inherit;
+}
+.employee-management1 {
+  top: 18px;
+  left: 385px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.salary-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 836px;
+  left: 32px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(90deg, #f9840d, #f35d16);
+  width: 200px;
+  height: 55px;
+}
+.logout1 {
+  position: absolute;
+  top: 851px;
+  left: 113px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+}
+.attendance1,
+.leaves1,
+.payroll1 {
+  position: absolute;
+  font-weight: 300;
+}
+.leaves1 {
+  text-decoration: none;
+  top: 427px;
+  left: 99px;
+  color: inherit;
+}
+.attendance1,
+.payroll1 {
+  left: 102px;
+}
+.attendance1 {
+  text-decoration: none;
+  top: 491px;
+  color: inherit;
+}
+.payroll1 {
+  top: 557px;
+}
+.vector-icon4 {
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 10%;
+  right: 5%;
+  bottom: 5%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fluentperson-clock-20-regular1 {
+  text-decoration: none;
+  top: 427px;
+  left: 40px;
+}
+.arcticonsgoogle-pay1,
+.fluentperson-clock-20-regular1,
+.uitcalender-icon1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.uitcalender-icon1 {
+  top: 560px;
+  left: 40px;
+  display: none;
+}
+.arcticonsgoogle-pay1 {
+  top: 558px;
+  left: 43px;
+}
+.salary-child1 {
+  position: absolute;
+  top: 4px;
+  right: 41px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon1 {
+  position: absolute;
+  top: 19px;
+  right: 56px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.salary-child2 {
+  position: absolute;
+  top: 343px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 368px;
+  height: 69px;
+  object-fit: cover;
+}
+.tablerlogout-icon1,
+.vector-icon5 {
+  position: absolute;
+  top: 849px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.vector-icon5 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.dashboard1,
+.uitcalender1 {
+  text-decoration: none;
+  position: absolute;
+}
+.uitcalender1 {
+  top: 491px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.dashboard1 {
+  top: 362px;
+  left: 99px;
+  font-weight: 300;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.vector-icon6 {
+  position: absolute;
+  height: 81.67%;
+  width: 90%;
+  top: 9.33%;
+  right: 5%;
+  bottom: 9%;
+  left: 5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akar-iconsdashboard1 {
+  text-decoration: none;
+  position: absolute;
+  top: 362px;
+  left: 43px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame-child4 {
+  position: absolute;
+  width: 125.46%;
+  top: 0;
+  right: 0;
+  left: -25.46%;
+  background-color: var(--color-white);
+  height: 64px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 11px;
+  left: 212.5px;
+  width: 2px;
+  height: 44px;
+}
+.frame-child6,
+.personal-details1 {
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+}
+.frame-child6 {
+  top: 10px;
+  left: calc(50% - 367px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  width: 199px;
+  height: 45px;
+}
+.personal-details1 {
+  top: 20px;
+  left: calc(50% - 344px);
+  color: inherit;
+  display: inline-block;
+  width: 152px;
+  height: 22px;
+}
+.frame-child7 {
+  left: calc(50% - 144px);
+  background-color: var(--color-whitesmoke);
+  cursor: pointer;
+}
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  border-radius: var(--br-31xl);
+  width: 199px;
+  height: 45px;
+}
+.frame-child8 {
+  left: calc(50% + 270px);
+  background-color: var(--color-whitesmoke);
+  cursor: pointer;
+}
+.frame-child9 {
+  left: calc(50% + 63px);
+  background-color: var(--color-bisque);
+}
+.job1 {
+  left: calc(50% - 63px);
+  color: inherit;
+  width: 86px;
+  cursor: pointer;
+}
+.document1,
+.job1,
+.salary2 {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  display: inline-block;
+  height: 22px;
+}
+.document1 {
+  left: calc(50% + 320px);
+  color: inherit;
+  width: 109px;
+  cursor: pointer;
+}
+.salary2 {
+  left: calc(50% + 137px);
+  color: var(--color-orangered);
+  width: 86px;
+}
+.bxhome-icon1 {
+  position: absolute;
+  top: 15px;
+  left: 147px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.rectangle-container {
+  position: absolute;
+  width: 79.56%;
+  top: calc(50% - 419px);
+  right: 0;
+  left: 20.44%;
+  height: 64px;
+  font-size: var(--font-size-xl);
+}
+.frame-child10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1200px;
+  height: 635px;
+}
+.next1,
+.salary-details {
+  position: absolute;
+  display: inline-block;
+}
+.next1 {
+  text-decoration: none;
+  top: 704px;
+  left: 1028px;
+  color: var(--color-white);
+  width: 86px;
+  height: 33px;
+}
+.salary-details {
+  margin: 0;
+  top: 25px;
+  left: 30px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  width: 237px;
+  height: 32px;
+}
+.frame-child11 {
+  position: absolute;
+  top: 78px;
+  left: 18px;
+  width: 1156px;
+  height: 1px;
+  object-fit: cover;
+}
+.frame-child12 {
+  position: absolute;
+  top: 99px;
+  left: 31px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite);
+  width: 569px;
+  height: 130px;
+}
+.cost-to-the,
+.input {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+}
+.input {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-rubik);
+  background-color: transparent;
+  top: 146px;
+  left: 444px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.cost-to-the {
+  top: 142px;
+  left: 55px;
+  color: var(--color-gray-200);
+}
+.frame-child13,
+.frame-child14 {
+  position: absolute;
+  top: 268px;
+  left: 31px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite);
+  width: 569px;
+  height: 130px;
+}
+.frame-child14 {
+  left: 617px;
+  height: 305px;
+}
+.pf {
+  position: absolute;
+  top: 376px;
+  left: 670px;
+  font-weight: 300;
+}
+.input1,
+.input2 {
+  border: 0;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  left: 1064px;
+  color: var(--color-black);
+  text-align: left;
+}
+.input1 {
+  font-weight: 300;
+  position: absolute;
+  top: 376px;
+}
+.input2 {
+  top: 446px;
+}
+.esi,
+.input2,
+.input3 {
+  position: absolute;
+  font-weight: 300;
+}
+.input3 {
+  border: 0;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  top: 513px;
+  left: 1064px;
+  color: var(--color-black);
+  text-align: left;
+}
+.esi {
+  top: 446px;
+  left: 670px;
+}
+.frame-child15 {
+  position: absolute;
+  top: 99px;
+  left: 617px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite);
+  width: 569px;
+  height: 130px;
+}
+.mdirupee-icon {
+  position: absolute;
+  top: 143px;
+  left: 405px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.input4,
+.total-payable {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+}
+.input4 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-rubik);
+  background-color: transparent;
+  top: 146px;
+  left: 1030px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.total-payable {
+  top: 142px;
+  left: 641px;
+  color: var(--color-gray-200);
+}
+.mdirupee-icon1 {
+  position: absolute;
+  top: 143px;
+  left: 991px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.deductions,
+.input5 {
+  position: absolute;
+  font-size: var(--font-size-11xl);
+}
+.input5 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-rubik);
+  background-color: transparent;
+  top: 314px;
+  left: 444px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.deductions {
+  top: 310px;
+  left: 55px;
+  color: var(--color-gray-200);
+}
+.mdirupee-icon2 {
+  position: absolute;
+  top: 311px;
+  left: 405px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.deductions-breakdown {
+  margin: 0;
+  position: absolute;
+  top: 291px;
+  left: 647px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 274px;
+  height: 32px;
+}
+.frame-child16,
+.frame-child17 {
+  position: absolute;
+  top: 335px;
+  left: 641px;
+  width: 511px;
+  height: 1px;
+  object-fit: cover;
+}
+.frame-child17 {
+  top: 501px;
+  left: 1036px;
+  width: 116px;
+}
+.frame-div {
+  position: absolute;
+  width: calc(100% - 449px);
+  top: calc(50% - 314px);
+  right: 43px;
+  left: 406px;
+  height: 737px;
+}
+.logo-1-icon1 {
+  position: absolute;
+  top: 6px;
+  left: 102px;
+  width: 163px;
+  height: 151px;
+  object-fit: cover;
+}
+.salary1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 994px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

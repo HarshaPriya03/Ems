@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-6xl: 25px;
+    --font-size-xl: 20px;
+    --font-size-26xl: 45px;
+    --font-size-19xl: 38px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: #7f7f7f;
+    --color-darkslategray: #313131;
+    --color-black: #000;
+    --color-mediumseagreen: #45c380;
+    --color-ghostwhite: #f6f5fb;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-3xs: 10px;
+  }
+  

@@ -1,0 +1,150 @@
+.mgr-mob-child {
+  position: absolute;
+  width: 100%;
+  top: 64px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(89.98deg, #fb860f, #f55f18);
+  height: 36px;
+}
+.logo-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 53px;
+  height: 49px;
+  object-fit: cover;
+}
+.hrm {
+  color: #45c380;
+}
+.anikahrm {
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 58px;
+  display: inline-block;
+  width: 95px;
+  height: 24px;
+  color: inherit;
+}
+.logo-1-parent {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 77px);
+  width: 153px;
+  height: 49px;
+}
+.employee-management {
+  text-decoration: none;
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 111px);
+  color: var(--color-white);
+  display: inline-block;
+  width: 221px;
+  height: 24px;
+}
+.hello-manager,
+.welcome-to-hrms {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 60.5px);
+}
+.welcome-to-hrms {
+  top: 32px;
+  left: calc(50% - 83.5px);
+}
+.frame-child {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(147.46deg, #ff920d, #f45e17);
+  box-shadow: 10px 10px 4px rgba(255, 146, 13, 0.5);
+  width: 204px;
+  height: 258px;
+}
+.manager-portal {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 75.5px);
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 149px;
+  height: 22px;
+}
+.business-deal-icon,
+.right-button-icon {
+  position: absolute;
+  top: 175px;
+  left: 20px;
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+}
+.right-button-icon {
+  top: 89px;
+  left: 75px;
+  width: 55px;
+  height: 55px;
+}
+.frame-item {
+  position: absolute;
+  top: 372px;
+  left: 4px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(147.46deg, #ff920d, #f45e17);
+  box-shadow: 10px 10px 4px rgba(255, 146, 13, 0.5);
+  width: 203px;
+  height: 257px;
+}
+.employee-portal {
+  position: absolute;
+  top: 437px;
+  left: 28px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 160px;
+  height: 23px;
+}
+.business-report-icon,
+.right-button-icon1 {
+  position: absolute;
+  top: 475px;
+  left: 26px;
+  width: 164px;
+  height: 153px;
+  object-fit: cover;
+}
+.right-button-icon1 {
+  top: 378px;
+  left: 81px;
+  width: 55px;
+  height: 55px;
+}
+.hello-manager-parent {
+  position: absolute;
+  height: calc(100% - 160px);
+  top: 121px;
+  bottom: 39px;
+  left: calc(50% - 105px);
+  width: 207px;
+  overflow-y: auto;
+  color: var(--color-dimgray);
+}
+.mgr-mob {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

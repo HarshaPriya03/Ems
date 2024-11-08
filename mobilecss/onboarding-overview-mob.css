@@ -1,0 +1,691 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-4xl: 23px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-ghostwhite: #f6f5fb;
+  --color-white: #fff;
+  --color-mediumseagreen: #45c380;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-black: #000;
+  --color-darkslategray: #313131;
+  --color-orangered: #ff5400;
+  --color-bisque: #ffe2c6;
+  --color-gray: #7f7f7f;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+}
+
+.frame-child9 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 223px;
+}
+.n-mohan-reddy,
+.personal-info {
+  position: absolute;
+  top: 146px;
+  left: 22px;
+  font-size: var(--font-size-mini);
+}
+.personal-info {
+  top: 23px;
+  left: 149px;
+}
+.date-of-birth,
+.email-id2,
+.phone-number {
+  position: absolute;
+  top: 51px;
+  left: 149px;
+  font-weight: 300;
+}
+.email-id2,
+.phone-number {
+  top: 71px;
+}
+.email-id2 {
+  top: 91px;
+}
+.div,
+.div1,
+.gender,
+.martial-status,
+.reason,
+.status {
+  position: absolute;
+  top: 111px;
+  left: 149px;
+  font-weight: 300;
+}
+.div,
+.div1,
+.gender,
+.reason,
+.status {
+  top: 131px;
+}
+.div,
+.div1,
+.reason,
+.status {
+  top: 151px;
+}
+.div,
+.div1,
+.reason {
+  top: 171px;
+}
+.div,
+.div1 {
+  top: 51px;
+  left: 210px;
+}
+.div1 {
+  top: 71px;
+  left: 223px;
+}
+.male,
+.naradamohan1gmailcom,
+.single,
+.terminated {
+  position: absolute;
+  top: 91px;
+  left: 190px;
+  font-weight: 300;
+}
+.male,
+.single,
+.terminated {
+  top: 111px;
+  left: 215px;
+}
+.male,
+.terminated {
+  top: 131px;
+  left: 186px;
+}
+.terminated {
+  top: 151px;
+  left: 182px;
+}
+.div2,
+.shusanth-is-torturing,
+.web-developer {
+  position: absolute;
+  top: 171px;
+  left: 187px;
+  font-weight: 300;
+}
+.div2,
+.web-developer {
+  top: 172px;
+  left: 57px;
+  font-size: var(--font-size-mini);
+}
+.web-developer {
+  top: 197px;
+  left: 25px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 16px;
+  right: 186px;
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon {
+  position: absolute;
+  top: 51px;
+  right: 212px;
+  width: 66px;
+  height: 65px;
+  overflow: hidden;
+}
+.frame-child10 {
+  position: absolute;
+  top: 232px;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 202px;
+}
+.employment-info {
+  position: absolute;
+  top: 245px;
+  left: 22px;
+  font-size: var(--font-size-mini);
+}
+.date-of-joining,
+.department {
+  position: absolute;
+  top: 273px;
+  left: 22px;
+  font-weight: 300;
+}
+.date-of-joining {
+  top: 293px;
+}
+.employment-type,
+.reporting-manager,
+.salaryfixed {
+  position: absolute;
+  top: 313px;
+  left: 22px;
+  font-weight: 300;
+}
+.employment-type,
+.salaryfixed {
+  top: 333px;
+}
+.salaryfixed {
+  top: 353px;
+  left: 23px;
+}
+.div3,
+.epf,
+.esi,
+.it,
+.prabhdeep-singh-maan,
+.salarybase-pay {
+  position: absolute;
+  top: 373px;
+  left: 22px;
+  font-weight: 300;
+}
+.div3,
+.epf,
+.esi,
+.it,
+.prabhdeep-singh-maan {
+  top: 393px;
+}
+.div3,
+.esi,
+.it,
+.prabhdeep-singh-maan {
+  top: 413px;
+}
+.div3,
+.it,
+.prabhdeep-singh-maan {
+  top: 273px;
+  left: 83px;
+}
+.div3,
+.prabhdeep-singh-maan {
+  top: 293px;
+  left: 96px;
+}
+.prabhdeep-singh-maan {
+  top: 313px;
+  left: 112px;
+}
+.div4,
+.div5,
+.div6,
+.div7,
+.permanent {
+  position: absolute;
+  top: 333px;
+  left: 107px;
+  font-weight: 300;
+}
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 353px;
+  left: 85px;
+}
+.div5,
+.div6,
+.div7 {
+  top: 373px;
+  left: 101px;
+}
+.div6,
+.div7 {
+  top: 393px;
+  left: 44px;
+}
+.div7 {
+  top: 413px;
+}
+.frame-icon {
+  position: absolute;
+  top: 247px;
+  left: 285px;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.frame-child11 {
+  position: absolute;
+  top: 444px;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 165px;
+}
+.input,
+.input1,
+.kdiry3947h,
+.ubin39723,
+.union-bank-of {
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-3xs);
+  background-color: transparent;
+  position: absolute;
+  top: 575px;
+  left: 74px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 93px;
+  height: 7px;
+}
+.input,
+.input1,
+.kdiry3947h,
+.ubin39723 {
+  top: 552px;
+  left: 68px;
+  width: 55px;
+}
+.input,
+.input1,
+.kdiry3947h {
+  top: 530px;
+  left: 99px;
+  width: 91px;
+}
+.input1,
+.kdiry3947h {
+  top: 510px;
+  left: 60px;
+  width: 67px;
+}
+.kdiry3947h {
+  top: 492px;
+  left: 41px;
+  width: 60px;
+  height: 8px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.identity-info,
+.ifsc-code,
+.pan {
+  margin: 0;
+  position: absolute;
+  top: 492px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 34px;
+  height: 8px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.identity-info,
+.ifsc-code {
+  top: 510px;
+  width: 58px;
+  height: 7px;
+}
+.account-number,
+.bank-name,
+.identity-info,
+.ifsc-code {
+  top: 530px;
+  width: 96px;
+}
+.bank-name,
+.identity-info,
+.ifsc-code {
+  top: 552px;
+  width: 62px;
+}
+.bank-name,
+.identity-info {
+  top: 575px;
+  width: 72px;
+}
+.identity-info {
+  top: 456px;
+  font-size: var(--font-size-mini);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+  width: 156px;
+}
+.frame-child12 {
+  position: absolute;
+  top: 619px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 223px;
+}
+.document-upload {
+  margin: 0;
+  position: absolute;
+  top: 635px;
+  left: 16px;
+  font-size: var(--font-size-mini);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+  display: inline-block;
+  width: 156px;
+  height: 10px;
+}
+.frame-child13 {
+  position: absolute;
+  top: 661px;
+  left: 50px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 233px;
+  height: 153px;
+}
+.frame-child14 {
+  position: absolute;
+  top: 679px;
+  left: 147px;
+  width: 36px;
+  height: 29px;
+  object-fit: cover;
+}
+.no-files-selected {
+  margin: 0;
+  position: absolute;
+  top: 727px;
+  left: 116px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 149px;
+  height: 14px;
+}
+.rectangle-input,
+.upload {
+  border: 0;
+  outline: 0;
+  position: absolute;
+}
+.rectangle-input {
+  background-color: var(--color-mediumseagreen);
+  top: 764px;
+  left: 116px;
+  border-radius: var(--br-3xs);
+  width: 98px;
+  height: 27px;
+}
+.upload {
+  font-weight: 300;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  top: 770px;
+  left: 143px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 76px;
+  height: 14px;
+}
+.rectangle-parent {
+  position: absolute;
+  height: calc(100% - 180px);
+  top: 71px;
+  bottom: 109px;
+  left: calc(50% - 162px);
+  width: 325px;
+  overflow-y: auto;
+}
+.logo-1-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.onboarding-overview {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent1 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  font-size: var(--font-size-xl);
+}
+.frame-child15 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon1 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.onboardingoverviewmob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 110px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 55px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon3 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user {
+  text-decoration: none;
+  position: absolute;
+  top: 16px;
+  left: 175px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.vector-icon4 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay,
+.uitcalender {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+}
+.uitcalender {
+  text-decoration: none;
+  left: 234px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay {
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-group {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 162px);
+  width: 323px;
+  height: 66px;
+}
+.onboardingoverviewmob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

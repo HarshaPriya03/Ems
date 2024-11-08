@@ -1,0 +1,17 @@
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 123
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 128
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 129
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 130
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 131
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 135
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 165
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined variable $record_count in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 205
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined variable $total_count in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 205
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined variable $record_count in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 220
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 231
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 235
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 240
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 362
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 366
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 371
+[11-Jul-2024 04:09:45 UTC] PHP Warning:  Undefined array key "user_name" in /home/a0qd23o3xwj4/public_html/hrms.anikasterilis.com/emppolicy/emppolicy.php on line 437

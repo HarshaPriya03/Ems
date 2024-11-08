@@ -1,0 +1,448 @@
+.frame-child59 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 333px;
+  height: 932px;
+}
+.employee-management,
+.employment-details {
+  position: absolute;
+  color: var(--color-black);
+}
+.employee-management {
+  text-decoration: none;
+  top: 13px;
+  left: calc(50% - 109.5px);
+  font-size: var(--font-size-xl);
+}
+.employment-details {
+  margin: 0;
+  top: 58px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 140px;
+  height: 18px;
+}
+.frame-child60 {
+  position: absolute;
+  top: 87px;
+  left: 7px;
+  max-height: 100%;
+  width: 319px;
+  object-fit: cover;
+}
+.date-of-birth1,
+.employment-id {
+  cursor: pointer;
+  position: absolute;
+  top: 108px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.date-of-birth1 {
+  top: 180px;
+  left: 20px;
+}
+.department1,
+.designation,
+.employment-type1,
+.reporting-manager1,
+.salarybase-pay1,
+.salaryfixed-pay {
+  cursor: pointer;
+  position: absolute;
+  top: 252px;
+  left: 20px;
+  font-weight: 300;
+  display: inline-block;
+  width: 138px;
+  height: 21px;
+}
+.department1,
+.designation,
+.employment-type1,
+.salarybase-pay1,
+.salaryfixed-pay {
+  top: 324px;
+  width: 108px;
+}
+.designation,
+.employment-type1,
+.salarybase-pay1,
+.salaryfixed-pay {
+  top: 396px;
+  left: 18px;
+}
+.employment-type1,
+.salarybase-pay1,
+.salaryfixed-pay {
+  top: 470px;
+}
+.salarybase-pay1,
+.salaryfixed-pay {
+  top: 546px;
+}
+.salarybase-pay1 {
+  top: 620px;
+}
+.frame-child61,
+.frame-child62,
+.frame-child63,
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 136px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child62,
+.frame-child63,
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  top: 208px;
+  left: 20px;
+}
+.frame-child63,
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  top: 280px;
+}
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  top: 352px;
+}
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  top: 424px;
+  left: 18px;
+}
+.frame-child66,
+.frame-child67,
+.frame-child68 {
+  top: 498px;
+}
+.frame-child67,
+.frame-child68 {
+  top: 574px;
+}
+.frame-child68 {
+  top: 648px;
+}
+.frame-child69,
+.frame-child70 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  position: absolute;
+  top: 869px;
+  left: 205px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 102px;
+  height: 33px;
+}
+.frame-child70 {
+  top: 868px;
+  left: 20px;
+  height: 34px;
+}
+.next {
+  text-decoration: none;
+  top: 878px;
+  left: 240px;
+  color: var(--color-white);
+  width: 53px;
+  height: 17px;
+}
+.deductionsepf,
+.deductionsesi,
+.next,
+.prev {
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+}
+.prev {
+  text-decoration: none;
+  top: 877px;
+  left: 57px;
+  color: var(--color-white);
+  width: 53px;
+  height: 18px;
+}
+.deductionsepf,
+.deductionsesi {
+  top: 696px;
+  left: 18px;
+  font-weight: 300;
+  width: 108px;
+  height: 21px;
+}
+.deductionsesi {
+  top: 771px;
+  left: 19px;
+}
+.frame-child71,
+.frame-child72 {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 724px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child72 {
+  top: 799px;
+  left: 19px;
+}
+.rectangle-parent8 {
+  position: absolute;
+  height: calc(100% - 154px);
+  top: 73px;
+  bottom: 81px;
+  left: calc(50% - 168px);
+  width: 333px;
+  overflow-y: auto;
+}
+.logo-1-icon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.employee-list {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent6 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-child73 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon6 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-parent8 {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.addemployeemob2-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.frame-child74 {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon27 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard5 {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 125px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon28 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular5 {
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 61px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.vector-icon29 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular5 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon30 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user5 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 182px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon31 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay5,
+.uitcalender5 {
+  position: absolute;
+  top: 35px;
+  overflow: hidden;
+}
+.uitcalender5 {
+  text-decoration: none;
+  left: 240px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay5 {
+  left: 298px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-parent9 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 164px);
+  width: 328px;
+  height: 65px;
+}
+.addemployeemob2 {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray);
+  font-family: var(--font-rubik);
+}

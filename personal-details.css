@@ -1,0 +1,565 @@
+.bg3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-ghostwhite);
+  height: 994px;
+}
+.personaldetails-child,
+.personaldetails-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.personaldetails-child {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 81px;
+}
+.personaldetails-item {
+  border-radius: var(--br-11xs) var(--br-52xl) var(--br-52xl) var(--br-11xs);
+  width: 366px;
+  height: 994px;
+}
+.hrm3 {
+  color: var(--color-mediumseagreen);
+}
+.anikahrm3,
+.employee-management3 {
+  text-decoration: none;
+  position: absolute;
+  font-size: var(--font-size-19xl);
+}
+.anikahrm3 {
+  top: 157px;
+  left: 90px;
+  color: inherit;
+}
+.employee-management3 {
+  top: 18px;
+  left: 385px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.personaldetails-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 836px;
+  left: 32px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(90deg, #f9840d, #f35d16);
+  width: 200px;
+  height: 55px;
+}
+.logout3 {
+  position: absolute;
+  top: 851px;
+  left: 113px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+}
+.attendance3,
+.leaves3,
+.payroll3 {
+  position: absolute;
+  font-weight: 300;
+}
+.leaves3 {
+  text-decoration: none;
+  top: 427px;
+  left: 99px;
+  color: inherit;
+}
+.attendance3,
+.payroll3 {
+  left: 102px;
+}
+.attendance3 {
+  text-decoration: none;
+  top: 491px;
+  color: inherit;
+}
+.payroll3 {
+  top: 557px;
+}
+.vector-icon10 {
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 10%;
+  right: 5%;
+  bottom: 5%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fluentperson-clock-20-regular3 {
+  text-decoration: none;
+  top: 427px;
+  left: 40px;
+}
+.arcticonsgoogle-pay3,
+.fluentperson-clock-20-regular3,
+.uitcalender-icon3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.uitcalender-icon3 {
+  top: 560px;
+  left: 40px;
+  display: none;
+}
+.arcticonsgoogle-pay3 {
+  top: 558px;
+  left: 43px;
+}
+.personaldetails-child1 {
+  position: absolute;
+  top: 4px;
+  right: 41px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon3 {
+  position: absolute;
+  top: 19px;
+  right: 56px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.personaldetails-child2 {
+  position: absolute;
+  top: 343px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 368px;
+  height: 69px;
+  object-fit: cover;
+}
+.tablerlogout-icon3,
+.vector-icon11 {
+  position: absolute;
+  top: 849px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.vector-icon11 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.dashboard3,
+.uitcalender3 {
+  text-decoration: none;
+  position: absolute;
+}
+.uitcalender3 {
+  top: 491px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.dashboard3 {
+  top: 362px;
+  left: 99px;
+  font-weight: 300;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.vector-icon12 {
+  position: absolute;
+  height: 81.67%;
+  width: 90%;
+  top: 9.33%;
+  right: 5%;
+  bottom: 9%;
+  left: 5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akar-iconsdashboard3 {
+  text-decoration: none;
+  position: absolute;
+  top: 362px;
+  left: 43px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame-child33 {
+  position: absolute;
+  width: 125.61%;
+  top: 0;
+  right: 0;
+  left: -25.61%;
+  background-color: var(--color-white);
+  height: 64px;
+}
+.frame-child34 {
+  position: absolute;
+  top: 11px;
+  left: 212.5px;
+  width: 2px;
+  height: 44px;
+}
+.frame-child35,
+.personal-details3 {
+  text-decoration: none;
+  position: absolute;
+}
+.frame-child35 {
+  top: 10px;
+  left: calc(50% - 365px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-bisque);
+  width: 199px;
+  height: 45px;
+}
+.personal-details3 {
+  top: 20px;
+  left: calc(50% - 342px);
+  color: var(--color-orangered);
+  display: inline-block;
+  width: 152px;
+  height: 22px;
+}
+.frame-child36,
+.frame-child37,
+.frame-child38 {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 142px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  width: 199px;
+  height: 45px;
+  cursor: pointer;
+}
+.frame-child37,
+.frame-child38 {
+  left: calc(50% + 272px);
+}
+.frame-child38 {
+  left: calc(50% + 65px);
+}
+.document3,
+.job4 {
+  text-decoration: none;
+  top: 20px;
+  color: inherit;
+  display: inline-block;
+  height: 22px;
+}
+.job4 {
+  position: absolute;
+  left: calc(50% - 61px);
+  width: 86px;
+  cursor: pointer;
+}
+.document3 {
+  left: calc(50% + 322px);
+  width: 110px;
+}
+.bxhome-icon3,
+.document3,
+.salary4 {
+  position: absolute;
+  cursor: pointer;
+}
+.salary4 {
+  text-decoration: none;
+  top: 20px;
+  left: calc(50% + 139px);
+  color: inherit;
+  display: inline-block;
+  width: 86px;
+  height: 22px;
+}
+.bxhome-icon3 {
+  top: 15px;
+  left: 147px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.rectangle-parent3 {
+  position: absolute;
+  width: 79.56%;
+  top: calc(50% - 419px);
+  right: 0;
+  left: 20.44%;
+  height: 64px;
+  font-size: var(--font-size-xl);
+}
+.frame-child39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1200px;
+  height: 801px;
+}
+.personal-details4 {
+  margin: 0;
+  position: absolute;
+  top: 26px;
+  left: 36.2px;
+  font-size: var(--font-size-6xl);
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+  width: 237px;
+  height: 32px;
+}
+.frame-child40 {
+  position: absolute;
+  top: 79px;
+  left: 24.2px;
+  width: 1156px;
+  height: 1px;
+  object-fit: cover;
+}
+.employee-name {
+  cursor: pointer;
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.aadhaar,
+.account-number,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan,
+.phone-number {
+  cursor: pointer;
+  position: absolute;
+  top: 228px;
+  left: 24px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.aadhaar,
+.account-number,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan {
+  top: 341px;
+}
+.aadhaar,
+.account-number,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code,
+.pan {
+  top: 461px;
+}
+.aadhaar,
+.account-number,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code {
+  top: 566px;
+}
+.aadhaar,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code {
+  top: 112px;
+  left: 614px;
+  width: 119px;
+}
+.aadhaar,
+.email-id,
+.gender,
+.ifsc-code {
+  top: 227px;
+}
+.aadhaar,
+.gender,
+.ifsc-code {
+  top: 340px;
+}
+.aadhaar,
+.ifsc-code {
+  top: 452px;
+}
+.ifsc-code {
+  top: 565px;
+}
+.frame-child41,
+.frame-child42,
+.frame-child43,
+.frame-child44,
+.frame-child45,
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 150px;
+  left: 24px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 524px;
+  height: 60px;
+}
+.frame-child42,
+.frame-child43,
+.frame-child44,
+.frame-child45,
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 265px;
+}
+.frame-child43,
+.frame-child44,
+.frame-child45,
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 378px;
+}
+.frame-child44,
+.frame-child45,
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 490px;
+}
+.frame-child45,
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 603px;
+}
+.frame-child46,
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 150px;
+  left: 614px;
+  width: 525px;
+}
+.frame-child47,
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 265px;
+}
+.frame-child48,
+.frame-child49,
+.frame-child50 {
+  top: 378px;
+}
+.frame-child49,
+.frame-child50 {
+  top: 490px;
+}
+.frame-child50 {
+  top: 603px;
+}
+.bank-name,
+.frame-child51 {
+  position: absolute;
+  left: 24px;
+}
+.bank-name {
+  cursor: pointer;
+  top: 669px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.frame-child51 {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  top: 706px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 524px;
+  height: 60px;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: calc(50% - 336px);
+  left: calc(50% - 416.5px);
+  width: 1200px;
+  height: 801px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+}
+.logo-1-icon3 {
+  position: absolute;
+  top: 6px;
+  left: 102px;
+  width: 163px;
+  height: 151px;
+  object-fit: cover;
+}
+.personaldetails {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 994px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

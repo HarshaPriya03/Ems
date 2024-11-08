@@ -1,0 +1,440 @@
+.logo-1-icon7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.employee-management4 {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent5 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+}
+.empjobdetails-mob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.vector-icon25 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular7 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 1px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon26 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay7,
+.uitcalender7 {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uitcalender7 {
+  text-decoration: none;
+  left: 195px;
+  width: 27px;
+  height: 27px;
+}
+.arcticonsgoogle-pay7 {
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.frame-child41 {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon27 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard7 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 98px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.fluentperson-clock-20-regular-parent1 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 162px);
+  width: 323px;
+  height: 66px;
+}
+.empjobdetails-mob-item {
+  position: absolute;
+  width: 100%;
+  top: 64px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(90.06deg, #fb860e, #f45e17);
+  height: 36px;
+}
+.frame-child42,
+.personal-details2 {
+  text-decoration: none;
+  position: absolute;
+}
+.frame-child42 {
+  top: 0;
+  left: calc(50% - 42px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro-100);
+  width: 84px;
+  height: 23px;
+}
+.personal-details2 {
+  top: 6px;
+  left: calc(50% - 37px);
+  color: inherit;
+  display: inline-block;
+  width: 78px;
+  height: 14px;
+  cursor: pointer;
+}
+.rectangle-parent19 {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  width: 84px;
+  height: 23px;
+  cursor: pointer;
+}
+.frame-child43,
+.job2 {
+  text-decoration: none;
+  position: absolute;
+}
+.frame-child43 {
+  top: 0;
+  left: calc(50% - 42px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-bisque);
+  width: 84px;
+  height: 23px;
+}
+.job2 {
+  top: 6px;
+  left: calc(50% - 10px);
+  color: inherit;
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+}
+.frame-child44,
+.rectangle-parent20 {
+  position: absolute;
+  top: 0;
+  width: 84px;
+  height: 23px;
+}
+.rectangle-parent20 {
+  left: 152px;
+  color: var(--color-orangered);
+}
+.frame-child44 {
+  text-decoration: none;
+  left: calc(50% - 42px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+}
+.rectangle-parent21,
+.salary2 {
+  position: absolute;
+  cursor: pointer;
+}
+.salary2 {
+  text-decoration: none;
+  top: 5px;
+  left: calc(50% - 16px);
+  color: inherit;
+  display: inline-block;
+  width: 32px;
+  height: 14px;
+}
+.rectangle-parent21 {
+  top: 0;
+  left: 246px;
+  width: 84px;
+  height: 23px;
+}
+.documents2 {
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  left: calc(50% - 26px);
+  color: inherit;
+  display: inline-block;
+  width: 55px;
+  height: 14px;
+  cursor: pointer;
+}
+.rectangle-parent22 {
+  position: absolute;
+  top: 0;
+  left: 337px;
+  width: 84px;
+  height: 23px;
+  cursor: pointer;
+}
+.frame-child46 {
+  position: absolute;
+  top: -0.5px;
+  left: 23.5px;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 24px;
+}
+.bxhome-icon2,
+.line-container {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+.bxhome-icon2 {
+  left: -9px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.line-container {
+  left: 20px;
+  width: 24px;
+  height: 23px;
+}
+.frame-parent1 {
+  position: absolute;
+  top: 71px;
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 23px;
+  overflow-x: auto;
+  font-size: var(--font-size-3xs);
+}
+.vector-icon28 {
+  position: absolute;
+  height: 1.27%;
+  width: 1.39%;
+  top: 9.89%;
+  right: 1.11%;
+  bottom: 88.85%;
+  left: 97.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child47 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 333px;
+  height: 575px;
+}
+.employee-management5 {
+  text-decoration: none;
+  position: absolute;
+  top: 19px;
+  left: calc(50% - 109.5px);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.employment-details {
+  margin: 0;
+  position: absolute;
+  top: 64px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+  width: 147px;
+  height: 18px;
+}
+.frame-child48 {
+  position: absolute;
+  top: 93px;
+  left: 7px;
+  max-height: 100%;
+  width: 319px;
+  object-fit: cover;
+}
+.date-of-joining,
+.employee-id,
+.employment-status,
+.employment-type,
+.reporting-manager,
+.salary-fixed {
+  cursor: pointer;
+  position: absolute;
+  top: 103px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.date-of-joining,
+.employment-status,
+.employment-type,
+.reporting-manager,
+.salary-fixed {
+  top: 175px;
+  left: 20px;
+}
+.employment-status,
+.employment-type,
+.reporting-manager,
+.salary-fixed {
+  top: 247px;
+  width: 115px;
+}
+.employment-status,
+.employment-type,
+.salary-fixed {
+  top: 319px;
+  width: 120px;
+}
+.employment-type,
+.salary-fixed {
+  top: 391px;
+  left: 18px;
+  width: 108px;
+}
+.salary-fixed {
+  top: 463px;
+}
+.frame-child49,
+.frame-child50,
+.frame-child51,
+.frame-child52,
+.frame-child53,
+.frame-child54 {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 131px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child50,
+.frame-child51,
+.frame-child52,
+.frame-child53,
+.frame-child54 {
+  top: 203px;
+  left: 20px;
+}
+.frame-child51,
+.frame-child52,
+.frame-child53,
+.frame-child54 {
+  top: 275px;
+}
+.frame-child52,
+.frame-child53,
+.frame-child54 {
+  top: 347px;
+}
+.frame-child53,
+.frame-child54 {
+  top: 419px;
+  left: 18px;
+}
+.frame-child54 {
+  top: 491px;
+}
+.rectangle-parent23 {
+  position: absolute;
+  height: calc(100% - 214px);
+  top: 111px;
+  bottom: 103px;
+  left: calc(50% - 167px);
+  width: 333px;
+  overflow-y: auto;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-200);
+}
+.empjobdetails-mob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,70 @@
+.send-email {
+    position: absolute;
+    top: 101px;
+    left: 388px;
+    display: inline-block;
+    width: 236px;
+    height: 39px;
+  }
+  .email-id,
+  .frame-child {
+    position: absolute;
+    left: 126px;
+  }
+  .email-id {
+    cursor: pointer;
+    top: 190px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #313131;
+    display: inline-block;
+    width: 165px;
+    height: 22px;
+  }
+  .frame-child {
+    border: 1px solid #7f7f7f;
+    background-color: var(--color-white);
+    top: 221px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 727px;
+    height: 50px;
+  }
+  .frame-item {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #2f82ff;
+    position: absolute;
+    top: 337px;
+    left: 683px;
+    border-radius: 50px;
+    box-shadow: 5px 7px 4px rgba(47, 130, 255, 0.41);
+    width: 170px;
+    height: 43px;
+  }
+  .send-mail {
+    text-decoration: none;
+    position: absolute;
+    top: 344px;
+    left: 711px;
+    font-size: 25px;
+    line-height: 117.5%;
+    color: var(--color-white);
+    display: inline-block;
+    width: 130px;
+    height: 27px;
+  }
+  .send-email-parent {
+    position: relative;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 479px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: #000;
+    font-family: var(--font-rubik);
+  }
+  

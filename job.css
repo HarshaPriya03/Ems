@@ -1,0 +1,506 @@
+.bg2,
+.job-child,
+.job-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg2 {
+  width: 100%;
+  right: 0;
+  background-color: var(--color-ghostwhite);
+  height: 994px;
+}
+.job-child,
+.job-item {
+  object-fit: cover;
+}
+.job-child {
+  width: 100%;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 81px;
+}
+.job-item {
+  border-radius: var(--br-11xs) var(--br-52xl) var(--br-52xl) var(--br-11xs);
+  width: 366px;
+  height: 994px;
+}
+.hrm2 {
+  color: var(--color-mediumseagreen);
+}
+.anikahrm2,
+.employee-management2 {
+  text-decoration: none;
+  position: absolute;
+  font-size: var(--font-size-19xl);
+}
+.anikahrm2 {
+  top: 157px;
+  left: 90px;
+  color: inherit;
+}
+.employee-management2 {
+  top: 18px;
+  left: 385px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.job-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 836px;
+  left: 32px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(90deg, #f9840d, #f35d16);
+  width: 200px;
+  height: 55px;
+}
+.logout2 {
+  position: absolute;
+  top: 851px;
+  left: 113px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+}
+.attendance2,
+.leaves2,
+.payroll2 {
+  position: absolute;
+  font-weight: 300;
+}
+.leaves2 {
+  text-decoration: none;
+  top: 427px;
+  left: 99px;
+  color: inherit;
+}
+.attendance2,
+.payroll2 {
+  left: 102px;
+}
+.attendance2 {
+  text-decoration: none;
+  top: 491px;
+  color: inherit;
+}
+.payroll2 {
+  top: 557px;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 10%;
+  right: 5%;
+  bottom: 5%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fluentperson-clock-20-regular2 {
+  text-decoration: none;
+  top: 427px;
+  left: 40px;
+}
+.arcticonsgoogle-pay2,
+.fluentperson-clock-20-regular2,
+.uitcalender-icon2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.uitcalender-icon2 {
+  top: 560px;
+  left: 40px;
+  display: none;
+}
+.arcticonsgoogle-pay2 {
+  top: 558px;
+  left: 43px;
+}
+.job-child1 {
+  position: absolute;
+  top: 4px;
+  right: 41px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon2 {
+  position: absolute;
+  top: 19px;
+  right: 56px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.job-child2 {
+  position: absolute;
+  top: 343px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 368px;
+  height: 69px;
+  object-fit: cover;
+}
+.tablerlogout-icon2,
+.vector-icon8 {
+  position: absolute;
+  top: 849px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.vector-icon8 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.dashboard2,
+.uitcalender2 {
+  text-decoration: none;
+  position: absolute;
+}
+.uitcalender2 {
+  top: 491px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.dashboard2 {
+  top: 362px;
+  left: 99px;
+  font-weight: 300;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.vector-icon9 {
+  position: absolute;
+  height: 81.67%;
+  width: 90%;
+  top: 9.33%;
+  right: 5%;
+  bottom: 9%;
+  left: 5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akar-iconsdashboard2 {
+  text-decoration: none;
+  position: absolute;
+  top: 362px;
+  left: 43px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame-child18 {
+  position: absolute;
+  width: 125.23%;
+  top: 0;
+  right: 0;
+  left: -25.23%;
+  background-color: var(--color-white);
+  height: 64px;
+}
+.frame-child19 {
+  position: absolute;
+  top: 11px;
+  left: 212.5px;
+  width: 2px;
+  height: 44px;
+}
+.frame-child20,
+.personal-details2 {
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+}
+.frame-child20 {
+  top: 10px;
+  left: calc(50% - 371px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  width: 199px;
+  height: 45px;
+}
+.personal-details2 {
+  top: 20px;
+  left: calc(50% - 348px);
+  color: inherit;
+  display: inline-block;
+  width: 152px;
+  height: 22px;
+}
+.frame-child21,
+.frame-child22,
+.frame-child23 {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 148px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-bisque);
+  width: 199px;
+  height: 45px;
+}
+.frame-child22,
+.frame-child23 {
+  left: calc(50% + 266px);
+  background-color: var(--color-whitesmoke);
+  cursor: pointer;
+}
+.frame-child23 {
+  left: calc(50% + 59px);
+}
+.document2,
+.job3 {
+  text-decoration: none;
+  top: 20px;
+  display: inline-block;
+  height: 22px;
+}
+.job3 {
+  position: absolute;
+  left: calc(50% - 67px);
+  color: var(--color-orangered);
+  width: 86px;
+}
+.document2 {
+  left: calc(50% + 316px);
+  color: inherit;
+  width: 109px;
+}
+.bxhome-icon2,
+.document2,
+.salary3 {
+  position: absolute;
+  cursor: pointer;
+}
+.salary3 {
+  text-decoration: none;
+  top: 20px;
+  left: calc(50% + 133px);
+  color: inherit;
+  display: inline-block;
+  width: 86px;
+  height: 22px;
+}
+.bxhome-icon2 {
+  top: 15px;
+  left: 147px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.rectangle-parent1 {
+  position: absolute;
+  width: 79.56%;
+  top: calc(50% - 419px);
+  right: 0;
+  left: 20.44%;
+  height: 64px;
+  font-size: var(--font-size-xl);
+}
+.frame-child24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1200px;
+  height: 641px;
+}
+.employment-details {
+  margin: 0;
+  position: absolute;
+  top: 29px;
+  left: 34px;
+  font-size: var(--font-size-6xl);
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+  width: 237px;
+  height: 32px;
+}
+.frame-child25 {
+  position: absolute;
+  top: 82px;
+  left: 22px;
+  width: 1156px;
+  height: 1px;
+  object-fit: cover;
+}
+.employee-id,
+.reporting-manager {
+  cursor: pointer;
+  position: absolute;
+  top: 110px;
+  left: 34px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.reporting-manager {
+  top: 226px;
+  left: 33.8px;
+  width: 214px;
+}
+.date-of-joining,
+.department,
+.designation,
+.employment-status,
+.employment-type,
+.salary-fixed {
+  cursor: pointer;
+  position: absolute;
+  top: 342px;
+  left: 34px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.date-of-joining,
+.department,
+.employment-status,
+.employment-type,
+.salary-fixed {
+  top: 467px;
+  left: 33.8px;
+  width: 214px;
+}
+.date-of-joining,
+.department,
+.employment-status,
+.salary-fixed {
+  top: 109px;
+  left: 623.8px;
+  width: 163px;
+}
+.department,
+.employment-status,
+.salary-fixed {
+  top: 225px;
+  width: 211px;
+}
+.department,
+.salary-fixed {
+  top: 341px;
+  left: 624px;
+  width: 119px;
+}
+.salary-fixed {
+  top: 466px;
+  left: 623.8px;
+  width: 211px;
+}
+.frame-child26,
+.frame-child27,
+.frame-child28,
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32,
+.rectangle-input {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 147px;
+  left: 34px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 524px;
+  height: 60px;
+}
+.frame-child26,
+.frame-child27,
+.frame-child28,
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32 {
+  top: 263px;
+}
+.frame-child27,
+.frame-child28,
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32 {
+  top: 379px;
+}
+.frame-child28,
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32 {
+  top: 504px;
+}
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32 {
+  top: 147px;
+  left: 624px;
+  width: 525px;
+}
+.frame-child30,
+.frame-child31,
+.frame-child32 {
+  top: 263px;
+}
+.frame-child31,
+.frame-child32 {
+  top: 379px;
+}
+.frame-child32 {
+  top: 504px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: calc(50% - 315px);
+  left: calc(50% - 416.5px);
+  width: 1200px;
+  height: 750px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+}
+.logo-1-icon2 {
+  position: absolute;
+  top: 6px;
+  left: 102px;
+  width: 163px;
+  height: 151px;
+  object-fit: cover;
+}
+.job2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 994px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

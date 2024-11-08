@@ -1,0 +1,538 @@
+.logo-1-icon8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.employee-management6 {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent6 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+}
+.emppersonaldetails-mob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.vector-icon29 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular8 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 1px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon30 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay8,
+.uitcalender8 {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uitcalender8 {
+  text-decoration: none;
+  left: 195px;
+  width: 27px;
+  height: 27px;
+}
+.arcticonsgoogle-pay8 {
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.frame-child55 {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon31 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard8 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 98px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.fluentperson-clock-20-regular-parent2 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 162px);
+  width: 323px;
+  height: 66px;
+}
+.emppersonaldetails-mob-item {
+  position: absolute;
+  width: 100%;
+  top: 64px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(90.06deg, #fb860e, #f45e17);
+  height: 36px;
+}
+.frame-child56,
+.personal-details3 {
+  text-decoration: none;
+  position: absolute;
+}
+.frame-child56 {
+  top: 0;
+  left: calc(50% - 42px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-bisque);
+  width: 84px;
+  height: 23px;
+}
+.personal-details3 {
+  top: 6px;
+  left: calc(50% - 37px);
+  color: inherit;
+  display: inline-block;
+  width: 78px;
+  height: 14px;
+}
+.rectangle-parent24 {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  width: 84px;
+  height: 23px;
+  color: var(--color-orangered);
+}
+.frame-child57,
+.job3 {
+  text-decoration: none;
+  position: absolute;
+}
+.frame-child57 {
+  top: 0;
+  left: calc(50% - 42px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  width: 84px;
+  height: 23px;
+}
+.job3 {
+  top: 6px;
+  left: calc(50% - 10px);
+  color: inherit;
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+}
+.rectangle-parent25 {
+  top: 0;
+  left: 152px;
+  width: 84px;
+  height: 23px;
+}
+.rectangle-parent25,
+.rectangle-parent26,
+.salary3 {
+  position: absolute;
+  cursor: pointer;
+}
+.salary3 {
+  text-decoration: none;
+  top: 5px;
+  left: calc(50% - 16px);
+  color: inherit;
+  display: inline-block;
+  width: 32px;
+  height: 14px;
+}
+.rectangle-parent26 {
+  top: 0;
+  left: 246px;
+  width: 84px;
+  height: 23px;
+}
+.documents3 {
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  left: calc(50% - 26px);
+  color: inherit;
+  display: inline-block;
+  width: 55px;
+  height: 14px;
+  cursor: pointer;
+}
+.rectangle-parent27 {
+  position: absolute;
+  top: 0;
+  left: 337px;
+  width: 84px;
+  height: 23px;
+  cursor: pointer;
+}
+.frame-child60 {
+  position: absolute;
+  top: -0.5px;
+  left: 23.5px;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 24px;
+}
+.bxhome-icon3,
+.line-parent1 {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+.bxhome-icon3 {
+  left: -9px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.line-parent1 {
+  left: 20px;
+  width: 24px;
+  height: 23px;
+}
+.frame-parent2 {
+  position: absolute;
+  top: 71px;
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 23px;
+  overflow-x: auto;
+  font-size: var(--font-size-3xs);
+}
+.vector-icon32 {
+  position: absolute;
+  height: 1.27%;
+  width: 1.39%;
+  top: 9.89%;
+  right: 1.11%;
+  bottom: 88.85%;
+  left: 97.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child61 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 333px;
+  height: 916px;
+}
+.employee-management7,
+.personal-details4 {
+  position: absolute;
+  color: var(--color-black);
+}
+.employee-management7 {
+  text-decoration: none;
+  top: 19px;
+  left: calc(50% - 109.5px);
+  font-size: var(--font-size-xl);
+}
+.personal-details4 {
+  margin: 0;
+  top: 64px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 117px;
+  height: 18px;
+}
+.frame-child62 {
+  position: absolute;
+  top: 93px;
+  left: 7px;
+  max-height: 100%;
+  width: 319px;
+  object-fit: cover;
+}
+.employee-name1 {
+  cursor: pointer;
+  position: absolute;
+  top: 103px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.date-of-birth,
+.email-id,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan,
+.phone-number {
+  cursor: pointer;
+  position: absolute;
+  top: 175px;
+  left: 20px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.email-id,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan,
+.phone-number {
+  top: 247px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.email-id,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan {
+  top: 319px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.gender,
+.ifsc-code,
+.marital-status,
+.pan {
+  top: 391px;
+  left: 18px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.gender,
+.ifsc-code,
+.pan {
+  top: 463px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.ifsc-code,
+.pan {
+  top: 535px;
+  left: 20px;
+}
+.aadhaar,
+.account-number,
+.bank-name,
+.ifsc-code {
+  top: 607px;
+}
+.account-number,
+.bank-name,
+.ifsc-code {
+  top: 679px;
+  width: 139px;
+}
+.bank-name,
+.ifsc-code {
+  top: 751px;
+  width: 108px;
+}
+.bank-name {
+  top: 823px;
+}
+.frame-child63,
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 131px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child64,
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 203px;
+  left: 20px;
+}
+.frame-child65,
+.frame-child66,
+.frame-child67,
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 275px;
+}
+.frame-child66,
+.frame-child67,
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 347px;
+}
+.frame-child67,
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 419px;
+  left: 18px;
+}
+.frame-child68,
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 491px;
+}
+.frame-child69,
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 563px;
+  left: 20px;
+}
+.frame-child70,
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 635px;
+}
+.frame-child71,
+.frame-child72,
+.frame-child73 {
+  top: 707px;
+}
+.frame-child72,
+.frame-child73 {
+  top: 779px;
+}
+.frame-child73 {
+  top: 851px;
+}
+.rectangle-parent28 {
+  position: absolute;
+  height: calc(100% - 191px);
+  top: 110px;
+  bottom: 81px;
+  left: calc(50% - 168px);
+  width: 333px;
+  overflow-y: auto;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-200);
+}
+.emppersonaldetails-mob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

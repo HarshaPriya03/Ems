@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-6xl: 25px;
+    --font-size-xl: 20px;
+    --font-size-19xl: 38px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-mediumseagreen: #45c380;
+    --color-gray: #7f7f7f;
+    --color-darkslategray: #313131;
+    --color-black: #000;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-3xs: 10px;
+    --br-11xs: 2px;
+    --br-52xl: 71px;
+  }
+  .bg,
+  .biometricmap-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .bg {
+    width: 100%;
+    left: 0;
+    background-color: #f6f5fb;
+    height: 994px;
+  }
+  .biometricmap-child {
+    width: 92.33%;
+    left: 7.67%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 81px;
+    object-fit: cover;
+  }
+  .biometric-mapping {
+    position: absolute;
+    top: 16px;
+    left: 685px;
+    font-size: var(--font-size-19xl);
+    color: var(--color-white);
+  }
+  .biometricmap-item,
+  .logo-1-icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .biometricmap-item {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xs) var(--br-52xl) var(--br-52xl) var(--br-11xs);
+    width: 366px;
+    height: 1000px;
+  }
+  .logo-1-icon {
+    top: 4px;
+    left: 102px;
+    width: 163px;
+    height: 151px;
+  }
+  .hrm {
+    color: var(--color-mediumseagreen);
+  }
+  .anikahrm,
+  .hr-management {
+    position: absolute;
+    font-size: var(--font-size-19xl);
+  }
+  .anikahrm {
+    text-decoration: none;
+    top: 155px;
+    left: 90px;
+    color: inherit;
+  }
+  .hr-management {
+    margin: 0;
+    top: 16px;
+    left: 385px;
+    font-weight: 400;
+    font-family: inherit;
+    color: var(--color-white);
+  }
+  .biometricmap-inner {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 834px;
+    left: 32px;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(90deg, #f9840d, #f35d16);
+    width: 200px;
+    height: 55px;
+  }
+  .logout {
+    position: absolute;
+    top: 849px;
+    left: 113px;
+    font-size: 23px;
+    color: var(--color-white);
+  }
+  .employee-list {
+    position: absolute;
+    top: 359px;
+    left: 99px;
+    font-weight: 300;
+  }
+  .employee-list,
+  .leaves,
+  .onboarding {
+    text-decoration: none;
+    color: inherit;
+  }
+  .leaves {
+    position: absolute;
+    top: 425px;
+    left: 99px;
+    font-weight: 300;
+  }
+  .onboarding {
+    top: 491px;
+  }
+  .attendance,
+  .onboarding,
+  .payroll,
+  .reports {
+    position: absolute;
+    left: 102px;
+    font-weight: 300;
+  }
+  .attendance {
+    text-decoration: none;
+    top: 557px;
+    color: inherit;
+  }
+  .payroll,
+  .reports {
+    top: 623px;
+  }
+  .reports {
+    top: 689px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 68.67%;
+    width: 87.33%;
+    top: 15.67%;
+    right: 6.33%;
+    bottom: 15.67%;
+    left: 6.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .fluentpeople-32-regular {
+    text-decoration: none;
+    position: absolute;
+    top: 361px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .vector-icon1 {
+    position: absolute;
+    height: 96%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 4%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .fluent-mdl2leave-user {
+    text-decoration: none;
+    position: absolute;
+    top: 492px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .vector-icon2 {
+    position: absolute;
+    height: 85%;
+    width: 85%;
+    top: 10%;
+    right: 5%;
+    bottom: 5%;
+    left: 10%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .fluentperson-clock-20-regular {
+    text-decoration: none;
+    top: 425px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+  }
+  .fluentperson-clock-20-regular,
+  .uitcalender,
+  .vector-icon3 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon3 {
+    height: 83.33%;
+    width: 83.33%;
+    top: 8.33%;
+    right: 8.33%;
+    bottom: 8.33%;
+    left: 8.33%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .uitcalender {
+    text-decoration: none;
+    top: 558px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+  }
+  .arcticonsgoogle-pay,
+  .streamlineinterface-content-c-icon {
+    position: absolute;
+    top: 624px;
+    left: 43px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .streamlineinterface-content-c-icon {
+    top: 690px;
+  }
+  .ellipse-icon {
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+  }
+  .material-symbolsperson-icon {
+    position: absolute;
+    top: 17px;
+    right: 45px;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+  }
+  .rectangle-icon {
+    position: absolute;
+    top: 275px;
+    left: 0;
+    border-radius: var(--br-31xl);
+    width: 368px;
+    height: 69px;
+    object-fit: cover;
+  }
+  .dashboard {
+    text-decoration: none;
+    position: absolute;
+    top: 293px;
+    left: 99px;
+    font-weight: 300;
+    color: var(--color-white);
+  }
+  .vector-icon4 {
+    position: absolute;
+    height: 81.67%;
+    width: 90%;
+    top: 9.33%;
+    right: 5%;
+    bottom: 9%;
+    left: 5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .akar-iconsdashboard,
+  .frame-div,
+  .tablerlogout-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .akar-iconsdashboard {
+    text-decoration: none;
+    top: 294px;
+    left: 43px;
+  }
+  .frame-div,
+  .tablerlogout-icon {
+    top: 847px;
+    left: 71px;
+  }
+  .frame-div {
+    top: 36px;
+    left: 177px;
+    width: 100px;
+    height: 100px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 136px;
+    left: 427px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    width: 1170px;
+    height: 340px;
+  }
+  .line-icon,
+  .userid-mapping {
+    position: absolute;
+    left: 447px;
+  }
+  .userid-mapping {
+    margin: 0;
+    top: 161px;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+    display: inline-block;
+    width: 237px;
+    height: 32px;
+  }
+  .line-icon {
+    top: 208px;
+    width: 1112px;
+    height: 1px;
+    object-fit: cover;
+  }
+  .employee-name,
+  .user-id {
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+    left: 463px;
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    color: var(--color-darkslategray);
+    display: inline-block;
+    width: 168px;
+    height: 27px;
+  }
+  .user-id {
+    left: 1019px;
+  }
+  .biometricmap-child1,
+  .rectangle-input {
+    border: 1px solid var(--color-gray);
+    background-color: var(--color-white);
+    position: absolute;
+    top: 287px;
+    left: 463px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 524px;
+    height: 60px;
+  }
+  .biometricmap-child1 {
+    left: 1019px;
+  }
+  .map,
+  .rectangle-button {
+    position: absolute;
+    cursor: pointer;
+  }
+  .rectangle-button {
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumseagreen);
+    top: 379px;
+    left: 1349px;
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 194px;
+    height: 65px;
+  }
+  .map {
+    text-decoration: none;
+    top: 395px;
+    left: 1421px;
+    color: var(--color-white);
+    display: inline-block;
+    width: 86px;
+    height: 33px;
+  }
+  .biometricmap {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 994px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-black);
+    font-family: var(--font-rubik);
+  }
+    

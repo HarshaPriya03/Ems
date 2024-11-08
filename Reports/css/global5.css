@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* Colors */
+    --color-white: #fff;
+  }
+  

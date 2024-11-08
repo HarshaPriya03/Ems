@@ -1,0 +1,451 @@
+
+
+
+
+  <!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./gatepasslog.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+    <!-- QR Code Generator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://kit.fontawesome.com/26eea4c998.js" crossorigin="anonymous"></script>
+    <style>
+      .white-line
+      {
+        background-color: #fff;
+        position:absolute;
+        height:3vw;
+        top:80px;
+        width:82%;
+        left:360px;
+        display:flex;
+        flex-direction:row;
+        gap:15vw;
+        justify-content:center;
+        /* z-index:1000; */
+      }
+   
+      .issuer button
+      {
+        padding:0.4vw !important;
+        padding-bottom:0.2vw !important;
+        font-size:1vw;
+        background-color: #f0f0f0 !important;
+        color:black !important;
+        border:none;
+        border-radius:2vw;
+        margin-top:0.5vw;
+        width:10vw;
+        cursor:pointer;
+      }
+      .submit-form
+      {
+        background-color:#f0fdf4;
+        width:25vw;
+        padding:2vw;
+        height:15vw;
+        margin-left:20vw;
+        margin-top:5vw;
+        border-radius:0.5vw;
+        text-align:center;
+        display: flex;
+        flex-direction:column;
+        gap:1vw;
+      }
+      .submit-form i{
+            font-size:5vw;
+      }
+      .submit-form h4{
+        font-weight:bold;
+        font-size:1.2vw;
+      }
+      .submit-form p{
+        font-size:1vw;
+        color:gray;
+        margin-top:-1vw;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section class="gatepasslog">
+      <section class="bg"></section>
+      <section class="gatepasslog-child"></section>
+      <h2 class="gatepass-log">/Gatepass Log</h2>
+      <img class="gatepasslog-item" alt="" src="./public/rectangle-2@2x.png" />
+
+      <a class="anikahrm">
+        <span>Anika</span>
+        <span class="hrm">HRM</span>
+      </a>
+      <a class="employee-management" id="employeeManagement"
+        >Employee Management</a
+      >
+      <button class="gatepasslog-inner"><a  href="logout.php" style="margin-left:25px; color:white; text-decoration:none; font-size:25px">Logout</a></button>
+      <a class="leaves" href="apply-leave-emp.php">Leaves</a>
+      <a class="attendance" href="attendenceemp2.php">Attendance</a>
+      <a class="payroll" href="card.php" style="text-decoration:none;">Directory</a>
+      <a class="fluentperson-clock-20-regular">
+        <img class="vector-icon" alt="" src="./public/vector1.svg" />
+      </a>
+      <img class="uitcalender-icon" alt="" src="./public/uitcalender.svg" />
+
+      <img
+        class="arcticonsgoogle-pay"
+        alt=""
+        src="./public/arcticonsgooglepay.svg"
+      />
+
+      <!--<img class="ellipse-icon" alt="" src="./public/ellipse-1@2x.png" />-->
+
+      <!--<img-->
+      <!--  class="material-symbolsperson-icon"-->
+      <!--  alt=""-->
+      <!--  src="./public/materialsymbolsperson.svg"-->
+      <!--/>-->
+
+<a href="employee-dashboard.php">
+      <img class="rectangle-icon" alt="" src="./public/rectangle-4@2x.png" /></a>
+
+      <img class="tablerlogout-icon" alt="" src="./public/tablerlogout.svg" />
+
+      <a class="uitcalender">
+        <img class="vector-icon1" alt="" src="./public/vector4.svg" />
+      </a>
+      <a class="dashboard" id="dashboard">Dashboard</a>
+      <a class="akar-iconsdashboard" id="akarIconsdashboard">
+        <img class="vector-icon2" alt="" style="-webkit-filter: grayscale(1) invert(1);
+        filter: grayscale(1) invert(1);" src="./public/vector3.svg" />
+      </a>
+      <img class="logo-1-icon" alt="" src="./public/logo-1@2x.png" />
+      <div class="white-line">
+        <div class="issuer">
+           <button>Issue Gatepass</button>
+        </div>
+        <div class="issuer">
+          <button onclick="window.location">GatePass Log</button>
+       </div>
+    </div>
+
+      <section class="frame-parent" style="width: 1300px;margin-left:-80px;">
+      <!-- <div style="display: flex; gap: 10px; ">
+          <div style="display: flex; gap: 10px;">
+            <svg style="margin-left: 40px;" xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24' fill='none' stroke='#4a90e2' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M16 17l5-5-5-5M19.8 12H9M10 3H4v18h6'/></svg>
+          <p style="margin-top: 9px;">: One way pass</p>
+          </div>
+          <div style="display: flex; gap: 10px; margin-left: 35px;">
+            <img src="./public/tick.png" alt="" width="50px" height="50px">
+          <p style="margin-top: 9px;">: Employee marked in</p>
+          </div>
+          <div style="display: flex; gap: 10px; margin-left: 35px;">
+            <img style="margin-top: -7px;" src="./public/cross.png" alt="" width="60px" height="60px">
+          <p style="margin-top: 9px;">: Employee yet to mark in</p>
+          </div>
+          <div style="display: flex; gap: 10px; margin-left: 35px;">
+          <svg  xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24' fill='none' stroke='#e24a4a' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z'/><path d='M14 3v5h5M9.9 17.1L14 13M9.9 12.9L14 17'/></svg>
+          <p style="margin-top: 9px;">: Gatepass Rejected</p>
+          </div>
+        </div> -->
+
+        <!-- <div class="rectangle-parent9">
+            <div class="frame-child101"></div>
+            <a class="frame-child104" style="margin-left: -300px;"> </a>
+            <a class="frame-child105" href="./myleaves-emp.php" style="margin-left: -300px;" id="rectangleLink3"> </a>
+            <a class="frame-child105" href="./lbhistory.php" style="margin-left: -60px;" id="rectangleLink3"> </a>
+            <a class="apply-leave1" style="margin-left: -300px;">Apply Leave</a>
+            <a class="my-leaves1" href="./myleaves-emp.php" style="margin-left: -310px;" id="myLeaves">My Leaves</a>
+            <a class="my-leaves1" href="./lbhistory.php" style="margin-left: -85px; width:200px;" id="myLeaves">Leaves History</a>
+          </div> -->
+      
+          <div class="container mx-auto px-4 py-8 mt-10">
+            <!-- Navigation -->
+            <div class="mb-8 flex justify-center gap-4 mt-10">
+                <button onclick="switchStep(1)" id="step1Btn" class="px-4 py-2 rounded-lg bg-blue-600 text-white">Request Form</button>
+                <button onclick="switchStep(2)" id="step2Btn" class="px-4 py-2 rounded-lg bg-gray-300">Generated Pass</button>
+                <button onclick="switchStep(3)" id="step3Btn" class="px-4 py-2 rounded-lg bg-gray-300">Security Verification</button>
+            </div>
+    
+            <!-- Step 1: Request Form -->
+             <div id="step1">
+            <div  class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-xl font-semibold">Personal Purpose Gatepass</h2>
+                        <div class="text-sm text-gray-500">
+                            <span>Remaining: </span>
+                            <span id="remainingTime">1h 45m</span>
+                        </div>
+                    </div>
+    
+                    <form id="gatepassForm" class="space-y-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Exit Time</label>
+                                <input type="time" name="exitTime" class="w-full p-2 border rounded-md" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Duration (minutes)</label>
+                                <input type="number" name="duration" min="1" max="120" class="w-full p-2 border rounded-md" required>
+                            </div>
+                        </div>
+    
+                        <div>
+                            <label class="block text-sm font-medium mb-1">Purpose</label>
+                            <textarea name="purpose" rows="3" class="w-full p-2 border rounded-md" required></textarea>
+                        </div>
+    
+                        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+        </div>
+                    <div class="submit-form" >
+                        <i class="fa-regular fa-circle-check" style="color: green;"></i>
+                        <h4>Request Submitted</h4>
+                        <p>Awaiting For Manager Response</p>
+                </div>
+            </div>
+           
+            <!-- Step 2: Generated Pass -->
+            <div id="step2" class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden hidden">
+                <div class="p-6">
+                    <div class="text-center mb-6">
+                        <h2 class="text-xl font-semibold">Digital Gatepass</h2>
+                        <p class="text-sm text-green-600">Active and Ready to Use</p>
+                    </div>
+    
+                    <div class="flex justify-center mb-6">
+                        <div id="qrcode" class="bg-white p-4 rounded-lg"></div>
+                    </div>
+    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="bg-blue-50 p-3 rounded-lg">
+                            <p class="text-sm text-blue-600">Exit Time</p>
+                            <p class="font-semibold" id="displayExitTime">--:--</p>
+                        </div>
+                        <div class="bg-purple-50 p-3 rounded-lg">
+                            <p class="text-sm text-purple-600">Return Time</p>
+                            <p class="font-semibold" id="displayReturnTime">--:--</p>
+                        </div>
+                    </div>
+    
+                    <div class="space-y-4 border-t pt-4">
+                        <div>
+                            <p class="text-sm text-gray-500">Gatepass ID</p>
+                            <p class="font-mono font-medium" id="gatepassId">GP-2024-XXXX</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Duration</p>
+                            <p class="font-medium" id="displayDuration">-- minutes</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Purpose</p>
+                            <p class="font-medium" id="displayPurpose">--</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Step 3: Security Verification -->
+            <div id="step3" class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden hidden">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-xl font-semibold">Security Verification</h2>
+                        <div class="flex gap-2">
+                            <button onclick="setScanMode('exit')" id="exitBtn" class="px-4 py-1 rounded-full bg-blue-600 text-white">Exit</button>
+                            <button onclick="setScanMode('entry')" id="entryBtn" class="px-4 py-1 rounded-full bg-gray-300">Entry</button>
+                        </div>
+                    </div>
+    
+                    <div class="space-y-6">
+                        <!-- Scanner Simulation -->
+                        <div class="relative">
+                            <div class="w-full aspect-video bg-gray-900 rounded-lg flex items-center justify-center">
+                                <div id="scannerArea" class="relative w-48 h-48 border-2 border-white/30 rounded-lg">
+                                    <div class="absolute inset-0 flex items-center justify-center">
+                                        <span class="text-white/70">Scanning...</span>
+                                    </div>
+                                    <div class="absolute top-0 left-0 w-full h-1 bg-green-500 animate-[scanner_2s_ease-in-out_infinite]"></div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Manual Entry -->
+                        <div class="relative">
+                            <input type="text" id="manualGatepassId" placeholder="Enter Gatepass ID manually..." 
+                                   class="w-full p-2 pl-10 border rounded-md">
+                            <i data-feather="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"></i>
+                        </div>
+    
+                        <!-- Verification Result (Initially Hidden) -->
+                        <div id="verificationResult" class="hidden space-y-4">
+                            <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                                <div class="flex items-center gap-2">
+                                    <i data-feather="check-circle" class="w-5 h-5 text-green-600"></i>
+                                    <span class="text-green-800">Valid gatepass - Exit permitted</span>
+                                </div>
+                            </div>
+    
+                            <div class="bg-white border rounded-lg p-4">
+                                <div class="flex gap-4">
+                                    <img src="/api/placeholder/80/80" alt="Employee" class="w-20 h-20 rounded-lg object-cover">
+                                    <div>
+                                        <h3 class="font-medium">John Doe</h3>
+                                        <p class="text-sm text-gray-500">EMP-2024-001</p>
+                                        <p class="text-sm text-gray-500">Engineering</p>
+                                    </div>
+                                </div>
+    
+                                <div class="mt-4 grid grid-cols-2 gap-3">
+                                    <button onclick="verifyAndAllow()" 
+                                            class="flex items-center justify-center gap-2 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700">
+                                        <i data-feather="user-check" class="w-4 h-4"></i>
+                                        Verify & Allow
+                                    </button>
+                                    <button onclick="denyAccess()" 
+                                            class="flex items-center justify-center gap-2 bg-gray-100 text-gray-700 py-2 px-4 rounded-md hover:bg-gray-200">
+                                        <i data-feather="x-circle" class="w-4 h-4"></i>
+                                        Deny
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+      </section>
+
+
+
+
+
+      
+
+   
+    <script>
+      var employeeManagement = document.getElementById("employeeManagement");
+      if (employeeManagement) {
+        employeeManagement.addEventListener("click", function (e) {
+          // Please sync "Homepage" to the project
+        });
+      }
+      
+      var dashboard = document.getElementById("dashboard");
+      if (dashboard) {
+        dashboard.addEventListener("click", function (e) {
+          // Please sync "Homepage" to the project
+        });
+      }
+      
+      var akarIconsdashboard = document.getElementById("akarIconsdashboard");
+      if (akarIconsdashboard) {
+        akarIconsdashboard.addEventListener("click", function (e) {
+          // Please sync "Homepage" to the project
+        });
+      }
+      </script>
+       <script>
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Global Variables
+        let currentStep = 1;
+        let scanMode = 'exit';
+        let qrcode = null;
+
+        // Initialize QR Code
+        window.onload = function() {
+            qrcode = new QRCode(document.getElementById("qrcode"), {
+                text: "SAMPLE-GATEPASS-2024",
+                width: 128,
+                height: 128
+            });
+        };
+
+        // Switch between steps
+        function switchStep(step) {
+            document.getElementById(`step${currentStep}`).classList.add('hidden');
+            document.getElementById(`step${step}`).classList.remove('hidden');
+            
+            // Update button states
+            document.getElementById(`step${currentStep}Btn`).classList.remove('bg-blue-600', 'text-white');
+            document.getElementById(`step${currentStep}Btn`).classList.add('bg-gray-300');
+            document.getElementById(`step${step}Btn`).classList.remove('bg-gray-300');
+            document.getElementById(`step${step}Btn`).classList.add('bg-blue-600', 'text-white');
+            
+            currentStep = step;
+        }
+
+        // Handle form submission
+        document.getElementById('gatepassForm').onsubmit = function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            
+            // Update display values
+            document.getElementById('displayExitTime').textContent = formData.get('exitTime');
+            document.getElementById('displayDuration').textContent = formData.get('duration') + ' minutes';
+            document.getElementById('displayPurpose').textContent = formData.get('purpose');
+            
+            // Generate random gatepass ID
+            const gatepassId = 'GP-' + Math.random().toString(36).substr(2, 8).toUpperCase();
+            document.getElementById('gatepassId').textContent = gatepassId;
+            
+            // Update QR code
+            qrcode.makeCode(gatepassId);
+            
+            // Switch to step 2
+            switchStep(2);
+        };
+
+        // Security verification functions
+        function setScanMode(mode) {
+            scanMode = mode;
+            const exitBtn = document.getElementById('exitBtn');
+            const entryBtn = document.getElementById('entryBtn');
+            
+            if (mode === 'exit') {
+                exitBtn.classList.remove('bg-gray-300');
+                exitBtn.classList.add('bg-blue-600', 'text-white');
+                entryBtn.classList.remove('bg-blue-600', 'text-white');
+                entryBtn.classList.add('bg-gray-300');
+            } else {
+                entryBtn.classList.remove('bg-gray-300');
+                entryBtn.classList.add('bg-blue-600', 'text-white');
+                exitBtn.classList.remove('bg-blue-600', 'text-white');
+                exitBtn.classList.add('bg-gray-300');
+            }
+        }
+
+        // Manual gatepass verification
+        document.getElementById('manualGatepassId').onkeyup = function(e) {
+            if (e.key === 'Enter') {
+                document.getElementById('verificationResult').classList.remove('hidden');
+            }
+        };
+
+        function verifyAndAllow() {
+            alert('Access granted!');
+            document.getElementById('verificationResult').classList.add('hidden');
+        }
+
+        function denyAccess() {
+            alert('Access denied!');
+            document.getElementById('verificationResult').classList.add('hidden');
+        }
+    </script>
+  </body>
+</html>

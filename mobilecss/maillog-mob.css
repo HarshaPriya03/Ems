@@ -1,0 +1,343 @@
+.logo-1-icon19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.mail-log {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent17 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 271px;
+  height: 38px;
+  cursor: pointer;
+}
+.frame-child167 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon17 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-parent27 {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.frame-child168 {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightsteelblue-200);
+  width: 348px;
+  height: 62px;
+}
+.hr-00min10 {
+  position: absolute;
+  top: 24px;
+  left: 62px;
+  font-size: var(--font-size-smi);
+}
+.mail-sent-to {
+  position: absolute;
+  top: 15px;
+  left: 144px;
+  color: var(--color-mediumseagreen);
+}
+.shinessusanthagmailcom {
+  position: absolute;
+  top: 15px;
+  left: 202px;
+}
+.for-conformation-of {
+  margin: 0;
+}
+.for-conformation-of-container {
+  position: absolute;
+  top: 31px;
+  left: 144px;
+  color: var(--color-orangered);
+}
+.frame-child169 {
+  /* position: absolute; */
+  top: 4px;
+  left: 5px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightsteelblue-100);
+  width: 56px;
+  height: 54px;
+}
+.div32,
+.mon10 {
+  position: absolute;
+  color: var(--color-white);
+}
+.mon10 {
+  top: 14px;
+  left: 17px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+}
+.div32 {
+  top: 35px;
+  left: 11px;
+}
+.frame-child170 {
+  /* position: absolute; */
+  top: 8.5px;
+  left: 136.5px;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 46px;
+}
+.rectangle-parent22,
+.rectangle-parent23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 348px;
+  height: 62px;
+}
+.rectangle-parent23 {
+  top: 69px;
+}
+.rectangle-parent24,
+.rectangle-parent25,
+.rectangle-parent26 {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 348px;
+  height: 62px;
+}
+.rectangle-parent25,
+.rectangle-parent26 {
+  top: 207px;
+}
+.rectangle-parent26 {
+  top: 276px;
+}
+.rectangle-parent27,
+.rectangle-parent28,
+.rectangle-parent29 {
+  position: absolute;
+  top: 345px;
+  left: 0;
+  width: 348px;
+  height: 62px;
+}
+.rectangle-parent28,
+.rectangle-parent29 {
+  top: 414px;
+}
+.rectangle-parent29 {
+  top: 483px;
+}
+.rectangle-parent30,
+.rectangle-parent31,
+.rectangle-parent32 {
+  position: absolute;
+  top: 552px;
+  left: 0;
+  width: 348px;
+  height: 62px;
+}
+.rectangle-parent31,
+.rectangle-parent32 {
+  top: 621px;
+}
+.rectangle-parent32 {
+  top: 690px;
+}
+.frame-container {
+  position: absolute;
+  height: calc(100% - 164px);
+  top: 80px;
+  bottom: 84px;
+  left: calc(50% - 174px);
+  width: 348px;
+  overflow-y: auto;
+  font-size: var(--font-size-3xs);
+}
+.maillogmob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.frame-child201 {
+  position: absolute;
+  top: 0;
+  left: 106px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon79 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard15 {
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 119px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.vector-icon80 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular15 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 55px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon81 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular15 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon82 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user15 {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 185px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon83 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay15,
+.uitcalender15 {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+}
+.uitcalender15 {
+  text-decoration: none;
+  left: 241px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay15 {
+  left: 297px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-parent28 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 163px);
+  width: 327px;
+  height: 66px;
+}
+.maillogmob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

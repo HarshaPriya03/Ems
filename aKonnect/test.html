@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .accordion {
+            display: none;
+            margin-top: 10px;
+        }
+        .comment-input {
+            width: calc(100% - 60px);
+            padding: 10px;
+        }
+        .post-button {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="icons-1">
+    <i class="fa-regular fa-comment-dots"></i>
+</div>
+
+<div class="accordion">
+    <input class="comment-input" type="text" placeholder="Add a comment...">
+    <button class="post-button">Post</button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var icon = document.querySelector('.fa-regular.fa-comment-dots');
+        var accordion = document.querySelector('.accordion');
+
+        icon.addEventListener('click', function(event) {
+            event.stopPropagation();
+            if (accordion.style.display === 'none' || accordion.style.display === '') {
+                accordion.style.display = 'block';
+            } else {
+                accordion.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('click', function() {
+            if (accordion.style.display === 'block') {
+                accordion.style.display = 'none';
+            }
+        });
+
+        accordion.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+    });
+</script>
+
+</body>
+</html>

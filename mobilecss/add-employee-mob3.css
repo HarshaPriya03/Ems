@@ -1,0 +1,372 @@
+.frame-child75 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 333px;
+  height: 593px;
+}
+.employee-management1,
+.identity-details {
+  position: absolute;
+  color: var(--color-black);
+}
+.employee-management1 {
+  text-decoration: none;
+  top: 19px;
+  left: calc(50% - 109.5px);
+  font-size: var(--font-size-xl);
+}
+.identity-details {
+  margin: 0;
+  top: 64px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 117px;
+  height: 18px;
+}
+.frame-child76 {
+  position: absolute;
+  top: 93px;
+  left: 7px;
+  max-height: 100%;
+  width: 319px;
+  object-fit: cover;
+}
+.aadhaar-number,
+.bank-account-number,
+.bank-name1,
+.ifsc-code1,
+.pan-number {
+  cursor: pointer;
+  position: absolute;
+  top: 114px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.aadhaar-number,
+.bank-account-number,
+.bank-name1,
+.ifsc-code1 {
+  top: 186px;
+  left: 20px;
+}
+.bank-account-number,
+.bank-name1,
+.ifsc-code1 {
+  top: 258px;
+  width: 138px;
+}
+.bank-name1,
+.ifsc-code1 {
+  top: 330px;
+  width: 108px;
+}
+.bank-name1 {
+  top: 402px;
+  left: 18px;
+}
+.frame-child77,
+.frame-child78,
+.frame-child79,
+.frame-child80,
+.frame-child81 {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 142px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child78,
+.frame-child79,
+.frame-child80,
+.frame-child81 {
+  top: 214px;
+  left: 20px;
+}
+.frame-child79,
+.frame-child80,
+.frame-child81 {
+  top: 286px;
+}
+.frame-child80,
+.frame-child81 {
+  top: 358px;
+}
+.frame-child81 {
+  top: 430px;
+  left: 18px;
+}
+.frame-child82 {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  top: 516px;
+  left: 202px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 102px;
+  height: 33px;
+}
+.frame-child82,
+.frame-child83,
+.next1,
+.prev1 {
+  position: absolute;
+  cursor: pointer;
+}
+.frame-child83 {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  top: 515px;
+  left: 17px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 102px;
+  height: 34px;
+}
+.next1,
+.prev1 {
+  text-decoration: none;
+  top: 525px;
+  left: 237px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 53px;
+  height: 17px;
+}
+.prev1 {
+  top: 524px;
+  left: 54px;
+  height: 18px;
+}
+.rectangle-parent9 {
+  position: absolute;
+  height: calc(100% - 196px);
+  top: 93px;
+  bottom: 103px;
+  left: calc(50% - 167px);
+  width: 333px;
+  overflow-y: auto;
+}
+.logo-1-icon10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.employee-list1 {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent7 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-child84 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon7 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-parent10 {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.addemployeemob3-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.frame-child85 {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon32 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard6 {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 125px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon33 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular6 {
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 61px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.vector-icon34 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular6 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon35 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user6 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 182px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon36 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay6,
+.uitcalender6 {
+  position: absolute;
+  top: 35px;
+  overflow: hidden;
+}
+.uitcalender6 {
+  text-decoration: none;
+  left: 240px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay6 {
+  left: 298px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-parent11 {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 165px);
+  width: 328px;
+  height: 65px;
+}
+.addemployeemob3 {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray);
+  font-family: var(--font-rubik);
+}

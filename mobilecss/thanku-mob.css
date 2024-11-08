@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-4xl: 23px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-ghostwhite: #f6f5fb;
+  --color-white: #fff;
+  --color-mediumseagreen: #45c380;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-black: #000;
+  --color-darkslategray: #313131;
+  --color-orangered: #ff5400;
+  --color-bisque: #ffe2c6;
+  --color-gray: #7f7f7f;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+}
+
+.logo-1-icon2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 37.5px);
+  width: 99px;
+  height: 92px;
+  object-fit: cover;
+}
+.span2 {
+  color: var(--color-white);
+}
+.hrm2 {
+  color: var(--color-mediumseagreen);
+}
+.anika-hrm2 {
+  margin: 0;
+  position: absolute;
+  top: 92px;
+  left: 91px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  font-family: inherit;
+}
+.frame-child4 {
+  position: absolute;
+  top: 146px;
+  left: 23px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(148.56deg, #fcb368 8.77%, #f45e17 78.5%);
+  width: 298px;
+  height: 339px;
+}
+.it-is-now {
+  position: absolute;
+  top: 355px;
+  left: 49px;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: center;
+}
+.we-have-your {
+  margin: 0;
+}
+.we-have-your-container {
+  position: absolute;
+  top: 287px;
+  left: 30px;
+  text-align: center;
+}
+.success {
+  position: absolute;
+  top: 230px;
+  left: 112px;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--color-mediumseagreen);
+}
+.approve-badge-icon,
+.icon,
+.pngfind-1-icon2 {
+  position: absolute;
+  top: 426px;
+  left: 55px;
+  width: 236px;
+  height: 113px;
+  object-fit: cover;
+}
+.approve-badge-icon,
+.icon {
+  top: 485px;
+  left: 0;
+  width: 241px;
+  height: 241px;
+}
+.approve-badge-icon {
+  top: 170px;
+  left: 141px;
+  width: 60px;
+  height: 60px;
+}
+.logo-1-container {
+  position: absolute;
+  height: calc(100% - 63px);
+  top: 48px;
+  bottom: 15px;
+  left: calc(50% - 170px);
+  width: 321px;
+  overflow-y: auto;
+}
+.thankumob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

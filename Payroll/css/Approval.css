@@ -1,0 +1,116 @@
+
+  table {
+    border: 1px solid #020202;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    color: #383838;
+    font-size: 40px
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #ffffff;
+    border: 1px solid #696969;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    color: #383838;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 600px) {
+    table {
+      scale: 0.5;
+      border: 0;
+      width: 600px;
+      margin-left: -105px;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #2b2b2b;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #2b2b2b;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    .leave-management{
+        display: none;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+        border-bottom: 0;
+      }
+      
+    table td:first-child {
+        border-bottom: 0;
+      }
+    table td:nth-child(2) {
+        border-bottom: 0;
+        float: left;
+        margin-top: -150px;
+      }
+      table td:nth-child(3) {
+        border-bottom: 0;
+        float: left;
+        margin-top: -90px;
+      }
+      .tabdiv{
+        margin-top: -100px;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

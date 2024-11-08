@@ -1,0 +1,356 @@
+<?php
+session_start();
+@include 'inc/config.php';
+
+if (!isset($_SESSION['user_name']) && !isset($_SESSION['name'])) {
+    header('location:loginpage.php');
+    exit();
+}
+
+$user_name = isset($_SESSION['user_name']) ? $_SESSION['user_name'] : '';
+if ($user_name === '') {
+    header('location:loginpage.php');
+    exit();
+}
+
+$query = "SELECT user_type FROM user_form WHERE email = '$user_name'";
+$result = mysqli_query($con, $query);
+
+if ($result) {
+    $row = mysqli_fetch_assoc($result);
+    
+    if ($row && isset($row['user_type'])) {
+        $user_type = $row['user_type'];
+        
+        if ($user_type !== 'admin') {
+            header('location:loginpage.php');
+            exit();
+        }
+    } else {
+        die("Error: Unable to fetch user details.");
+    }
+} else {
+    die("Error: " . mysqli_error($con));
+}
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/attendence.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+    />
+       <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+         table {
+        z-index: 100;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  padding: 1em;
+  border-bottom: 2px solid rgb(193, 193, 193); 
+}
+.even {
+  border-bottom: 2px solid #e8e8e8ba; 
+    }
+
+    .odd {
+        background-color: #e9e9e9 !important; 
+    }
+    .dropbtn {
+      background-color: #45C380;
+      color: #ffffff;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px #45C380;
+    }
+
+
+    .dropdown-content {
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 98;
+      max-height: 0;
+      min-width: 160px;
+      transition: max-height 0.15s ease-out;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      color: black;
+      background-color: #f9f9f9;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #e2e2e2;
+    }
+
+    .dropdown:hover .dropdown-content {
+      max-height: 500px;
+      min-width: 160px;
+      transition: max-height 0.25s ease-in;
+    }
+
+    .dropdown:hover .dropbtn {
+      /* background-color: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0; */
+      transition: max-height 0.25s ease-in;
+    }
+    </style>
+    <script>
+    function checkForUpdates() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+                    try {
+                        var response = JSON.parse(xhr.responseText.replace(/(['"])?([a-zA-Z0-9_]+)(['"])?:/g, '"$2":'));
+
+                        console.log(response);
+
+                        if (response && response.hasUpdates) {
+                            console.log('Reloading page...');
+                            // Reload the page if updates are found
+                            location.reload();
+                        }
+                    } catch (error) {
+                        console.error('Error parsing JSON response. Raw response:', xhr.responseText);
+                        console.error('Error details:', error);
+                    }
+                } else {
+                    console.error('Error in AJAX request. Status:', xhr.status);
+                }
+            }
+        };
+
+        xhr.open("GET", "getattendence.php", true);
+        xhr.send();
+    }
+
+    setInterval(checkForUpdates, 1000); 
+</script>
+  </head>
+  <body>
+    <div class="attendence4">
+      <div class="bg14"></div>
+     <div class="rectangle-parent22" style="margin-left:260px;">
+        <div class="frame-child187" ></div>
+        
+        <a class="frame-child188" style="margin-left: -150px; background-color: #E8E8E8;"> </a>
+        <a class="frame-child189" style="margin-left: -150px;"id="rectangleLink1"> </a>
+        <a href="" class="frame-child190" style="margin-left: -150px; background-color: #ffe2c6;"id="rectangleLink2"> </a>
+        <a class="attendence5"style="margin-left: -150px; color:black;">Attendance</a>
+        <a class="records5" href="attendancelog.php"  id="records"style="margin-left: -180px; width:200px;">Attendance Log</a>
+        <a class="punch-inout4" href="" id="punchINOUT"style="margin-left: -169px; width:250px; color:#ff5400;">Remote Attendance</a>
+      </div>
+      <div class="rectangle-parent23" style="overflow-y:auto;">
+   
+
+
+      </div>
+      <img class="attendence-child" alt="" src="./public/rectangle-1@2x.png" />
+
+      <img class="attendence-item" alt="" src="./public/rectangle-2@2x.png" />
+
+      <img class="logo-1-icon14" alt="" src="./public/logo-1@2x.png" />
+
+      <a class="anikahrm14" href="./index.php" id="anikaHRM">
+        <span>Anika</span>
+        <span class="hrm14">HRM</span>
+      </a>
+      <a
+        class="attendence-management4"
+        href="./index.php"
+        id="attendenceManagement"
+        >Attendance Management</a
+      >
+      <button class="attendence-inner"><a href="logout.php" style="color:white; text-decoration:none; font-size:25px; margin-left:20px;">Logout</a></button>
+      <!-- <div class="payroll14">Payroll</div>
+      <div class="reports14">Reports</div>
+      <img class="uitcalender-icon14" alt="" src="./public/uitcalender.svg" />
+
+      <img
+        class="arcticonsgoogle-pay14"
+        alt=""
+        src="./public/arcticonsgooglepay.svg"
+      />
+
+      <img
+        class="streamlineinterface-content-c-icon14"
+        alt=""
+        src="./public/streamlineinterfacecontentchartproductdataanalysisanalyticsgraphlinebusinessboardchart.svg"
+      /> -->
+
+      <!--<img class="attendence-child1" alt="" src="./public/ellipse-1@2x.png" />-->
+
+      <!--<img-->
+      <!--  class="material-symbolsperson-icon14"-->
+      <!--  alt=""-->
+      <!--  src="./public/materialsymbolsperson.svg"-->
+      <!--/>-->
+
+      <img class="attendence-child2" style="margin-top: -50px;" alt="" src="./public/rectangle-4@2x.png" />
+
+      <a class="dashboard14" href="./index.php" id="dashboard">Dashboard</a>
+      <a class="fluentpeople-32-regular14" id="fluentpeople32Regular">
+        <img class="vector-icon73" alt="" src="./public/vector7.svg" />
+      </a>
+      <a class="employee-list14" id="employeeList">Employee List</a>
+      <a
+        class="akar-iconsdashboard14"
+        href="./index.php"
+        id="akarIconsdashboard"
+      >
+        <img class="vector-icon74" alt="" src="./public/vector3.svg" />
+      </a>
+      <img class="tablerlogout-icon14" alt="" src="./public/tablerlogout.svg" />
+
+      <a class="leaves14" id="leaves">Leaves</a>
+      <a
+        class="fluentperson-clock-20-regular14"
+        id="fluentpersonClock20Regular"
+      >
+        <img class="vector-icon75" alt="" src="./public/vector1.svg" />
+      </a>
+      <!-- <a class="onboarding16" id="onboarding">Onboarding</a> -->
+      <!-- <a class="fluent-mdl2leave-user14" id="fluentMdl2leaveUser">
+        <img class="vector-icon76" alt="" src="./public/vector.svg" />
+      </a> -->
+      <a class="attendance14" style="margin-top: -50px;">Attendance</a>
+      <a class="uitcalender14" style="margin-top: -50px;">
+        <img class="vector-icon77" alt="" src="./public/vector11.svg" />
+      </a>
+      <div class="oouinext-ltr3"></div>
+    </div>
+
+    <script>
+      var rectangleLink1 = document.getElementById("rectangleLink1");
+      if (rectangleLink1) {
+        rectangleLink1.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var rectangleLink2 = document.getElementById("rectangleLink2");
+      if (rectangleLink2) {
+        rectangleLink2.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var rectangleLink3 = document.getElementById("rectangleLink3");
+      if (rectangleLink3) {
+        rectangleLink3.addEventListener("click", function (e) {
+          window.location.href = "./my-attendence.php";
+        });
+      }
+      
+      var records = document.getElementById("records");
+      if (records) {
+        records.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var punchINOUT = document.getElementById("punchINOUT");
+      if (punchINOUT) {
+        punchINOUT.addEventListener("click", function (e) {
+          window.location.href = "./punchout.php";
+        });
+      }
+      
+      var myAttendence = document.getElementById("myAttendence");
+      if (myAttendence) {
+        myAttendence.addEventListener("click", function (e) {
+          window.location.href = "./my-attendence.php";
+        });
+      }
+      
+      var anikaHRM = document.getElementById("anikaHRM");
+      if (anikaHRM) {
+        anikaHRM.addEventListener("click", function (e) {
+          window.location.href = "./index.php";
+        });
+      }
+      
+      var attendenceManagement = document.getElementById("attendenceManagement");
+      if (attendenceManagement) {
+        attendenceManagement.addEventListener("click", function (e) {
+          window.location.href = "./index.php";
+        });
+      }
+      
+      var dashboard = document.getElementById("dashboard");
+      if (dashboard) {
+        dashboard.addEventListener("click", function (e) {
+          window.location.href = "./index.php";
+        });
+      }
+      
+      var fluentpeople32Regular = document.getElementById("fluentpeople32Regular");
+      if (fluentpeople32Regular) {
+        fluentpeople32Regular.addEventListener("click", function (e) {
+          window.location.href = "./employee-management.php";
+        });
+      }
+      
+      var employeeList = document.getElementById("employeeList");
+      if (employeeList) {
+        employeeList.addEventListener("click", function (e) {
+          window.location.href = "./employee-management.php";
+        });
+      }
+      
+      var akarIconsdashboard = document.getElementById("akarIconsdashboard");
+      if (akarIconsdashboard) {
+        akarIconsdashboard.addEventListener("click", function (e) {
+          window.location.href = "./index.php";
+        });
+      }
+      
+      var leaves = document.getElementById("leaves");
+      if (leaves) {
+        leaves.addEventListener("click", function (e) {
+          window.location.href = "./leave-management.php";
+        });
+      }
+      
+      var fluentpersonClock20Regular = document.getElementById(
+        "fluentpersonClock20Regular"
+      );
+      if (fluentpersonClock20Regular) {
+        fluentpersonClock20Regular.addEventListener("click", function (e) {
+          window.location.href = "./leave-management.php";
+        });
+      }
+      
+      var onboarding = document.getElementById("onboarding");
+      if (onboarding) {
+        onboarding.addEventListener("click", function (e) {
+          window.location.href = "./onboarding.php";
+        });
+      }
+      
+      var fluentMdl2leaveUser = document.getElementById("fluentMdl2leaveUser");
+      if (fluentMdl2leaveUser) {
+        fluentMdl2leaveUser.addEventListener("click", function (e) {
+          window.location.href = "./onboarding.php";
+        });
+      }
+      </script>
+  </body>
+</html>

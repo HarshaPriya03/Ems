@@ -1,0 +1,516 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-smi: 13px;
+    --font-size-mini: 15px;
+    --font-size-3xs: 10px;
+    --font-size-sm: 14px;
+    --font-size-mid: 17px;
+    --font-size-xs: 12px;
+    --font-size-lg: 18px;
+    --font-size-4xl: 23px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-ghostwhite: #f6f5fb;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray-100: #7f7f7f;
+    --color-gray-200: #1c1c1c;
+    --color-darkslategray: #313131;
+    --color-mediumseagreen: #45c380;
+    --color-gainsboro-100: #e8e8e8;
+    --color-gainsboro-200: rgba(217, 217, 217, 0);
+    --color-orangered: #ff5400;
+    --color-bisque: #ffe2c6;
+    --color-darkgray: #9d9d9d;
+    --color-pink: #ffc0c0;
+    --color-lightsteelblue-100: #bccfff;
+    --color-lightsteelblue-200: rgba(194, 211, 255, 0.36);
+    --color-mistyrose: #f9e3e7;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-31xl: 50px;
+    --br-xl: 20px;
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-lg: 18px;
+    --font-size-4xl: 23px;
+    --font-size-13xl: 32px;
+    --font-size-xl: 20px;
+    --font-size-smi: 13px;
+    --font-size-3xs: 10px;
+    --font-size-mid: 17px;
+  
+    /* Colors */
+    --color-ghostwhite: #f6f5fb;
+    --color-white: #fff;
+    --color-mediumseagreen: #45c380;
+    --color-gainsboro-100: #e8e8e8;
+    --color-gainsboro-200: rgba(217, 217, 217, 0);
+    --color-black: #000;
+    --color-darkslategray: #313131;
+    --color-orangered: #ff5400;
+    --color-bisque: #ffe2c6;
+    --color-gray: #7f7f7f;
+  
+    /* Border radiuses */
+    --br-xl: 20px;
+    --br-3xs: 10px;
+    --br-31xl: 50px;
+  }
+  .logo-1-icon11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 41px;
+    height: 38px;
+    object-fit: cover;
+  }
+  .attendance-management {
+    text-decoration: none;
+    position: absolute;
+    top: 7px;
+    left: 41px;
+    color: inherit;
+  }
+  .logo-1-parent9 {
+    position: absolute;
+    top: 23px;
+    left: 12px;
+    width: 171px;
+    height: 38px;
+    cursor: pointer;
+  }
+  .frame-child105 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .material-symbolsperson-icon13 {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .ellipse-parent19 {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+  }
+  .frame-child106,
+  .frame-child107 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lightsteelblue-200);
+    width: 336px;
+    height: 72px;
+  }
+  .frame-child107 {
+    top: 77px;
+    background-color: var(--color-mistyrose);
+  }
+  .hr-00min,
+  .hr-00min1 {
+    position: absolute;
+    top: 39px;
+    left: 94px;
+  }
+  .hr-00min1 {
+    top: 116px;
+  }
+  .fingerprint,
+  .fingerprint1 {
+    position: absolute;
+    top: 39px;
+    left: 227px;
+  }
+  .fingerprint1 {
+    top: 116px;
+  }
+  .frame-child108,
+  .frame-child109 {
+    /* position: absolute; */
+    top: 5px;
+    left: 5px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-lightsteelblue-100);
+    width: 65px;
+    height: 62px;
+  }
+  .frame-child109 {
+    top: 82px;
+    background-color: var(--color-pink);
+  }
+  .mon {
+    top: 14px;
+    left: 17px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+  }
+  .div22,
+  .div23,
+  .mon,
+  .mon1 {
+    position: absolute;
+    color: var(--color-white);
+  }
+  .mon1 {
+    top: 91px;
+    left: 17px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+  }
+  .div22,
+  .div23 {
+    top: 43px;
+    left: 11px;
+  }
+  .div23 {
+    top: 120px;
+  }
+  .frame-child110,
+  .line-div {
+    /* position: absolute; */
+    top: 13.5px;
+    left: 185.5px;
+    border-right: 1px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 1px;
+    height: 46px;
+  }
+  .frame-child110 {
+    top: 90.5px;
+  }
+  .check-in,
+  .check-out {
+    position: absolute;
+    top: 20px;
+    left: 99px;
+  }
+  .check-out {
+    top: 97px;
+    left: 94px;
+  }
+  .input-type,
+  .input-type1 {
+    position: absolute;
+    top: 20px;
+    left: 228px;
+  }
+  .input-type1 {
+    top: 97px;
+  }
+  .rectangle-parent13,
+  .rectangle-parent14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 149px;
+  }
+  .rectangle-parent14 {
+    top: 161px;
+  }
+  .rectangle-parent15,
+  .rectangle-parent16,
+  .rectangle-parent17 {
+    position: absolute;
+    top: 322px;
+    left: 0;
+    width: 336px;
+    height: 149px;
+  }
+  .rectangle-parent16,
+  .rectangle-parent17 {
+    top: 483px;
+  }
+  .rectangle-parent17 {
+    top: 644px;
+  }
+  .frame-group {
+    position: absolute;
+    height: calc(100% - 215px);
+    top: 123px;
+    bottom: 92px;
+    left: calc(50% - 168px);
+    width: 336px;
+    overflow-y: auto;
+    font-size: var(--font-size-xs);
+  }
+  .myattendencemob-child {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #fb890d, #f45e17);
+    height: 47px;
+  }
+  .frame-child135 {
+    position: absolute;
+    top: 0;
+    left: 218px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 55px;
+    height: 55px;
+  }
+  .vector-icon58 {
+    position: absolute;
+    height: 75%;
+    width: 83.46%;
+    top: 12.69%;
+    right: 8.08%;
+    bottom: 12.31%;
+    left: 8.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .akar-iconsdashboard11 {
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 118px;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .vector-icon59 {
+    position: absolute;
+    height: 68.89%;
+    width: 87.41%;
+    top: 15.56%;
+    right: 6.3%;
+    bottom: 15.56%;
+    left: 6.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluentpeople-32-regular11 {
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 59px;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .vector-icon60 {
+    position: absolute;
+    height: 85.19%;
+    width: 85.19%;
+    top: 10%;
+    right: 4.81%;
+    bottom: 4.81%;
+    left: 10%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluentperson-clock-20-regular11 {
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .vector-icon61 {
+    position: absolute;
+    height: 95.93%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 4.07%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluent-mdl2leave-user11 {
+    text-decoration: none;
+    top: 35px;
+    left: 176px;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+  }
+  .fluent-mdl2leave-user11,
+  .uitcalender11,
+  .vector-icon62 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .vector-icon62 {
+    height: 83.33%;
+    width: 83.33%;
+    top: 8.52%;
+    right: 8.15%;
+    bottom: 8.15%;
+    left: 8.52%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .uitcalender11 {
+    text-decoration: none;
+    top: 14px;
+    left: 232px;
+    width: 27px;
+    height: 27px;
+  }
+  .arcticonsgoogle-pay11 {
+    position: absolute;
+    top: 35px;
+    left: 288px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .ellipse-parent20 {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 161px);
+    width: 318px;
+    height: 65px;
+  }
+  .myattendencemob-item {
+    position: absolute;
+    width: 100%;
+    top: 71px;
+    right: 0;
+    left: 0;
+    background: linear-gradient(89.89deg, #fb880e, #f55f17);
+    height: 41px;
+  }
+  .frame-child136 {
+    text-decoration: none;
+    position: absolute;
+    left: calc(50% - 158.5px);
+    cursor: pointer;
+  }
+  .frame-child136,
+  .frame-child137,
+  .frame-child138 {
+    top: calc(50% - 12px);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro-100);
+    width: 77px;
+    height: 24px;
+  }
+  .frame-child137 {
+    text-decoration: none;
+    position: absolute;
+    left: calc(50% - 78.5px);
+  }
+  .frame-child138 {
+    left: calc(50% + 1.5px);
+  }
+  .attendance,
+  .frame-child138,
+  .frame-child139 {
+    text-decoration: none;
+    position: absolute;
+  }
+  .frame-child139 {
+    top: calc(50% - 12px);
+    left: calc(50% + 81.5px);
+    border-radius: var(--br-31xl);
+    background-color: var(--color-bisque);
+    width: 77px;
+    height: 24px;
+  }
+  .attendance {
+    top: calc(50% - 6px);
+    left: calc(50% - 147.5px);
+    color: inherit;
+    display: inline-block;
+    width: 57px;
+    height: 11px;
+    cursor: pointer;
+  }
+  .records {
+    left: calc(50% - 58.5px);
+    color: inherit;
+    width: 45px;
+  }
+  .my-attendance,
+  .punch-inout,
+  .records {
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 6px);
+    display: inline-block;
+    height: 11px;
+  }
+  .punch-inout {
+    left: calc(50% + 7.5px);
+    color: inherit;
+    width: 69px;
+  }
+  .my-attendance {
+    left: calc(50% + 86.5px);
+    color: var(--color-orangered);
+    width: 72px;
+  }
+  .rectangle-parent18 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 158px);
+    width: 317px;
+    height: 24px;
+    font-size: var(--font-size-3xs);
+  }
+  .myattendencemob {
+    position: relative;
+    background-color: var(--color-ghostwhite);
+    width: 100%;
+    height: 789px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-rubik);
+  }
+    

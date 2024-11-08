@@ -1,0 +1,382 @@
+.frame-child25,
+.frame-child26 {
+  position: absolute;
+  top: 0;
+  background-color: var(--color-white);
+}
+.frame-child25 {
+  width: 80.65%;
+  right: 0;
+  left: 19.35%;
+  height: 78px;
+}
+.frame-child26 {
+  left: 1.8px;
+  width: 1209px;
+  height: 773px;
+}
+.designation,
+.employee-id,
+.reporting-manager {
+  cursor: pointer;
+  position: absolute;
+  top: 115px;
+  left: 41px;
+  font-weight: 300;
+  display: inline-block;
+  width: 168px;
+  height: 27px;
+}
+.designation,
+.reporting-manager {
+  top: 231px;
+  left: 40.8px;
+  width: 214px;
+}
+.designation {
+  top: 347px;
+  left: 41px;
+  width: 168px;
+}
+.date-of-joining,
+.department,
+.employment-status,
+.employment-type,
+.salary-base-pay {
+  cursor: pointer;
+  position: absolute;
+  top: 472px;
+  left: 40.8px;
+  font-weight: 300;
+  display: inline-block;
+  width: 214px;
+  height: 27px;
+}
+.date-of-joining,
+.department,
+.employment-status,
+.salary-base-pay {
+  top: 581px;
+}
+.date-of-joining,
+.department,
+.employment-status {
+  top: 114px;
+  left: 630.8px;
+  width: 163px;
+}
+.department,
+.employment-status {
+  top: 230px;
+  width: 211px;
+}
+.department {
+  top: 346px;
+  left: 631px;
+  width: 250px;
+}
+.salary-fixed {
+  cursor: pointer;
+  top: 471px;
+  left: 630.8px;
+  width: 211px;
+  height: 27px;
+}
+.employment-details,
+.salary-deductions,
+.salary-fixed {
+  position: absolute;
+  font-weight: 300;
+  display: inline-block;
+}
+.salary-deductions {
+  cursor: pointer;
+  top: 580px;
+  left: 630.8px;
+  width: 211px;
+  height: 27px;
+}
+.employment-details {
+  margin: 0;
+  top: 25px;
+  left: 41px;
+  font-size: var(--font-size-6xl);
+  font-family: inherit;
+  color: var(--color-black);
+  width: 237px;
+  height: 32px;
+}
+.frame-child27 {
+  position: absolute;
+  top: 78px;
+  left: 29px;
+  width: 1156px;
+  height: 1px;
+  object-fit: cover;
+}
+.frame-child28,
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 152px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 524px;
+  height: 60px;
+}
+.frame-child29,
+.frame-child30,
+.frame-child31,
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 268px;
+}
+.frame-child30,
+.frame-child31,
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 384px;
+}
+.frame-child31,
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 509px;
+}
+.frame-child32,
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 618px;
+}
+.frame-child33,
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 152px;
+  left: 631px;
+  width: 525px;
+}
+.frame-child34,
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 268px;
+}
+.frame-child35,
+.frame-child36,
+.frame-child37 {
+  top: 384px;
+}
+.frame-child36,
+.frame-child37 {
+  top: 509px;
+}
+.frame-child37 {
+  top: 618px;
+}
+.frame-child38 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  position: absolute;
+  top: 689px;
+  left: 962px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 194px;
+  height: 65px;
+}
+.next1 {
+  text-decoration: none;
+  position: absolute;
+  top: 705px;
+  left: 1033px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  display: inline-block;
+  width: 86px;
+  height: 33px;
+}
+.frame-child39 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  position: absolute;
+  top: 689px;
+  left: 50.8px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 194px;
+  height: 65px;
+}
+.prev2 {
+  text-decoration: none;
+  position: absolute;
+  top: 705px;
+  left: 121.8px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  display: inline-block;
+  width: 86px;
+  height: 33px;
+}
+.rectangle-container {
+  position: absolute;
+  width: 71.37%;
+  top: calc(50% - 336px);
+  right: 4.54%;
+  left: 24.09%;
+  height: 773px;
+}
+.frame-child40,
+.frame-child41,
+.frame-child42 {
+  position: absolute;
+  width: 26.69%;
+  top: 21px;
+  right: 69.32%;
+  left: 3.99%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  height: 20px;
+}
+.frame-child41,
+.frame-child42 {
+  width: 28.17%;
+  top: 19px;
+  right: 39.67%;
+  left: 32.16%;
+  background-color: var(--color-gainsboro-100);
+}
+.frame-child42 {
+  width: 43.84%;
+  right: 4.08%;
+  left: 52.09%;
+}
+.frame-child43 {
+  position: absolute;
+  width: 5.56%;
+  top: 0;
+  right: 94.44%;
+  left: 0;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 59px;
+  object-fit: cover;
+}
+.a8 {
+  text-decoration: none;
+  position: absolute;
+  width: 1.02%;
+  top: 14px;
+  left: 2.32%;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  height: 32px;
+}
+.frame-child44,
+.frame-child45,
+.frame-child46 {
+  position: absolute;
+  width: 5.47%;
+  top: 0;
+  right: 65.89%;
+  left: 28.64%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 59px;
+  object-fit: cover;
+}
+.frame-child45,
+.frame-child46 {
+  width: 5.75%;
+  top: -2px;
+  right: 36.05%;
+  left: 58.2%;
+}
+.frame-child46 {
+  width: 5.47%;
+  top: 0;
+  right: 0;
+  left: 94.53%;
+}
+.a10,
+.a9 {
+  text-decoration: none;
+  top: 12px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  height: 31px;
+}
+.a9 {
+  position: absolute;
+  width: 1.48%;
+  left: 30.68%;
+}
+.a10 {
+  width: 1.58%;
+  left: 60.33%;
+}
+.a10,
+.a11,
+.frame-div {
+  position: absolute;
+}
+.a11 {
+  text-decoration: none;
+  width: 1.48%;
+  top: 14px;
+  left: 96.66%;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  height: 31px;
+}
+.frame-div {
+  top: 9px;
+  left: calc(50% - 386.5px);
+  width: 1079px;
+  height: 59px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.rectangle-top {
+  position: relative;
+  width: 100%;
+  height: 874px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-rubik);
+}

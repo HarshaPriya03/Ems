@@ -1,0 +1,388 @@
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  width: 169px;
+  height: 214px;
+}
+.input,
+.input1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  position: absolute;
+  top: 122px;
+  left: 122px;
+  color: var(--color-white);
+  text-align: left;
+}
+.input1 {
+  top: 149px;
+  left: 134px;
+}
+.mingcuteflight-takeoff-line-icon {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 29.5px);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.casual-leave,
+.total-earned,
+.total-remaining {
+  margin: 0;
+  position: absolute;
+  top: 121px;
+  left: 29px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.casual-leave,
+.total-remaining {
+  top: 148px;
+  left: 15px;
+  width: 116px;
+}
+.casual-leave {
+  top: 91px;
+  left: 29px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  width: 117px;
+  height: 22px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 179px;
+  width: 169px;
+  height: 214px;
+}
+.vector-icon6 {
+  position: absolute;
+  height: 23.36%;
+  top: 12.15%;
+  bottom: 64.49%;
+  left: calc(50% - 26.5px);
+  max-height: 100%;
+  width: 52px;
+  object-fit: cover;
+}
+.sick-leave,
+.total-earned1,
+.total-remaining1 {
+  margin: 0;
+  position: absolute;
+  top: 120px;
+  left: 27px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.sick-leave,
+.total-remaining1 {
+  top: 147px;
+  left: 13px;
+  width: 116px;
+}
+.sick-leave {
+  top: 90px;
+  left: 36px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  width: 117px;
+  height: 22px;
+}
+.input2,
+.input3 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  position: absolute;
+  top: 121px;
+  left: 118px;
+  color: var(--color-white);
+  text-align: left;
+}
+.input3 {
+  top: 148px;
+  left: 130px;
+}
+.rectangle-container,
+.vector-icon7 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 169px;
+  height: 214px;
+}
+.vector-icon7 {
+  height: 21.03%;
+  width: 20.71%;
+  top: 14.95%;
+  right: 39.64%;
+  bottom: 64.02%;
+  left: 39.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.total-earned2,
+.total-leaves,
+.total-remaining2 {
+  margin: 0;
+  position: absolute;
+  top: 121px;
+  left: 28px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.total-leaves,
+.total-remaining2 {
+  top: 148px;
+  left: 14px;
+  width: 117px;
+}
+.total-leaves {
+  top: 91px;
+  left: 30px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  height: 22px;
+}
+.input4,
+.input5 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  position: absolute;
+  top: 122px;
+  left: 121px;
+  color: var(--color-white);
+  text-align: left;
+}
+.input5 {
+  top: 149px;
+  left: 133px;
+}
+.frame-div {
+  position: absolute;
+  top: 0;
+  left: 360px;
+  width: 169px;
+  height: 214px;
+}
+.frame-parent {
+  position: absolute;
+  height: calc(100% - 556px);
+  top: 137px;
+  bottom: 419px;
+  left: calc(50% - 175px);
+  width: 352px;
+  overflow-x: auto;
+  color: var(--color-white);
+}
+.logo-1-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.leaves-list {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-container {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  font-size: var(--font-size-xl);
+}
+.myleaveemp-mob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.myleaveemp-mob-item {
+  position: absolute;
+  width: 100%;
+  top: 68px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(89.89deg, #fb880e, #f55f17);
+  height: 41px;
+}
+.frame-child3,
+.frame-child4 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 12px);
+  border-radius: var(--br-31xl);
+  width: 77px;
+  height: 24px;
+}
+.frame-child3 {
+  left: calc(50% - 91.5px);
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.frame-child4 {
+  left: calc(50% + 14.5px);
+  background-color: var(--color-bisque);
+}
+.apply-leave,
+.my-leaves {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 6px);
+  display: inline-block;
+  width: 57px;
+  height: 11px;
+}
+.apply-leave {
+  left: calc(50% - 80.5px);
+  color: inherit;
+  cursor: pointer;
+}
+.my-leaves {
+  left: calc(50% + 29.5px);
+  color: var(--color-orangered);
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 77px;
+  left: calc(50% - 91px);
+  width: 183px;
+  height: 24px;
+  font-size: var(--font-size-3xs);
+}
+.vector-icon8 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay2,
+.uitcalender2 {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uitcalender2 {
+  text-decoration: none;
+  left: 195px;
+  width: 27px;
+  height: 27px;
+}
+.arcticonsgoogle-pay2 {
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.frame-child5 {
+  position: absolute;
+  top: 0;
+  left: -9px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon9 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard2 {
+  text-decoration: none;
+  position: absolute;
+  top: 38px;
+  left: 98px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon10 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular2 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.uitcalender-parent {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 157px);
+  width: 323px;
+  height: 66px;
+}
+.myleaveemp-mob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

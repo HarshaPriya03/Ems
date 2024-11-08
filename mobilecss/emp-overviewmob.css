@@ -1,0 +1,649 @@
+.logo-1-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.employee-overview {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-container {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+}
+.frame-child19 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon3 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-parent1 {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.frame-child20 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 223px;
+}
+.n-mohan-reddy1,
+.personal-info1 {
+  position: absolute;
+  top: 146px;
+  left: 22px;
+  font-size: var(--font-size-mini);
+}
+.personal-info1 {
+  top: 23px;
+  left: 149px;
+}
+.date-of-birth2,
+.email-id1,
+.phone-number1 {
+  position: absolute;
+  top: 51px;
+  left: 149px;
+  font-weight: 300;
+}
+.email-id1,
+.phone-number1 {
+  top: 71px;
+}
+.email-id1 {
+  top: 91px;
+}
+.div8,
+.div9,
+.gender1,
+.martial-status1,
+.reason1,
+.status1 {
+  position: absolute;
+  top: 111px;
+  left: 149px;
+  font-weight: 300;
+}
+.div8,
+.div9,
+.gender1,
+.reason1,
+.status1 {
+  top: 131px;
+}
+.div8,
+.div9,
+.reason1,
+.status1 {
+  top: 151px;
+}
+.div8,
+.div9,
+.reason1 {
+  top: 171px;
+}
+.div8,
+.div9 {
+  top: 51px;
+  left: 210px;
+}
+.div9 {
+  top: 71px;
+  left: 223px;
+}
+.male1,
+.naradamohan1gmailcom1,
+.single1,
+.terminated1 {
+  position: absolute;
+  top: 91px;
+  left: 190px;
+  font-weight: 300;
+}
+.male1,
+.single1,
+.terminated1 {
+  top: 111px;
+  left: 215px;
+}
+.male1,
+.terminated1 {
+  top: 131px;
+  left: 186px;
+}
+.terminated1 {
+  top: 151px;
+  left: 182px;
+}
+.div10,
+.shusanth-is-torturing1,
+.web-developer1 {
+  position: absolute;
+  top: 171px;
+  left: 187px;
+  font-weight: 300;
+}
+.div10,
+.web-developer1 {
+  top: 172px;
+  left: 57px;
+  font-size: var(--font-size-mini);
+}
+.web-developer1 {
+  top: 197px;
+  left: 25px;
+}
+.frame-child21 {
+  position: absolute;
+  top: 16px;
+  right: 186px;
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon4 {
+  position: absolute;
+  top: 51px;
+  right: 212px;
+  width: 66px;
+  height: 65px;
+  overflow: hidden;
+}
+.frame-child22 {
+  position: absolute;
+  top: 232px;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 202px;
+}
+.employment-info1 {
+  position: absolute;
+  top: 245px;
+  left: 22px;
+  font-size: var(--font-size-mini);
+}
+.department2 {
+  position: absolute;
+  top: 273px;
+  left: 22px;
+  font-weight: 300;
+}
+.date-of-joining1,
+.employment-type2,
+.reporting-manager2 {
+  position: absolute;
+  top: 293px;
+  left: 22px;
+  font-weight: 300;
+}
+.employment-type2,
+.reporting-manager2 {
+  top: 313px;
+}
+.employment-type2 {
+  top: 333px;
+}
+.epf1,
+.esi1,
+.salarybase-pay2,
+.salaryfixed1 {
+  position: absolute;
+  top: 353px;
+  left: 23px;
+  font-weight: 300;
+}
+.epf1,
+.esi1,
+.salarybase-pay2 {
+  top: 373px;
+  left: 22px;
+}
+.epf1,
+.esi1 {
+  top: 393px;
+}
+.esi1 {
+  top: 413px;
+}
+.div11,
+.it1,
+.prabhdeep-singh-maan1 {
+  position: absolute;
+  top: 273px;
+  left: 83px;
+  font-weight: 300;
+}
+.div11,
+.prabhdeep-singh-maan1 {
+  top: 293px;
+  left: 96px;
+}
+.prabhdeep-singh-maan1 {
+  top: 313px;
+  left: 112px;
+}
+.div12,
+.div13,
+.div14,
+.div15,
+.permanent1 {
+  position: absolute;
+  top: 333px;
+  left: 107px;
+  font-weight: 300;
+}
+.div12,
+.div13,
+.div14,
+.div15 {
+  top: 353px;
+  left: 85px;
+}
+.div13,
+.div14,
+.div15 {
+  top: 373px;
+  left: 101px;
+}
+.div14,
+.div15 {
+  top: 393px;
+  left: 44px;
+}
+.div15 {
+  top: 413px;
+}
+.frame-child23 {
+  position: absolute;
+  top: 247px;
+  left: 285px;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.frame-child24 {
+  position: absolute;
+  top: 444px;
+  left: 2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 165px;
+}
+.input2,
+.input3,
+.kdiry3947h1,
+.ubin397231,
+.union-bank-of1 {
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-3xs);
+  background-color: transparent;
+  position: absolute;
+  top: 575px;
+  left: 74px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 93px;
+  height: 7px;
+}
+.input2,
+.input3,
+.kdiry3947h1,
+.ubin397231 {
+  top: 552px;
+  left: 68px;
+  width: 55px;
+}
+.input2,
+.input3,
+.kdiry3947h1 {
+  top: 530px;
+  left: 99px;
+  width: 91px;
+}
+.input3,
+.kdiry3947h1 {
+  top: 510px;
+  left: 60px;
+  width: 67px;
+}
+.kdiry3947h1 {
+  top: 492px;
+  left: 41px;
+  width: 60px;
+  height: 8px;
+}
+.aadhaar1,
+.account-number1,
+.bank-name1,
+.identity-info1,
+.ifsc-code1,
+.pan1 {
+  margin: 0;
+  position: absolute;
+  top: 492px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 34px;
+  height: 8px;
+}
+.aadhaar1,
+.account-number1,
+.bank-name1,
+.identity-info1,
+.ifsc-code1 {
+  top: 510px;
+  width: 58px;
+  height: 7px;
+}
+.account-number1,
+.bank-name1,
+.identity-info1,
+.ifsc-code1 {
+  top: 530px;
+  width: 96px;
+}
+.bank-name1,
+.identity-info1,
+.ifsc-code1 {
+  top: 552px;
+  width: 62px;
+}
+.bank-name1,
+.identity-info1 {
+  top: 575px;
+  width: 72px;
+}
+.identity-info1 {
+  top: 456px;
+  font-size: var(--font-size-mini);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+  width: 156px;
+}
+.frame-child25 {
+  position: absolute;
+  top: 619px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 323px;
+  height: 223px;
+}
+.document-upload1 {
+  margin: 0;
+  position: absolute;
+  top: 635px;
+  left: 16px;
+  font-size: var(--font-size-mini);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+  display: inline-block;
+  width: 156px;
+  height: 10px;
+}
+.frame-child26 {
+  position: absolute;
+  top: 661px;
+  left: 50px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px dashed var(--color-black);
+  box-sizing: border-box;
+  width: 233px;
+  height: 153px;
+}
+.frame-child27 {
+  position: absolute;
+  top: 679px;
+  left: 147px;
+  width: 36px;
+  height: 29px;
+  object-fit: cover;
+}
+.documentpdf {
+  margin: 0;
+  position: absolute;
+  top: 727px;
+  left: 116px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 149px;
+  height: 14px;
+}
+.frame-child28,
+.view-file {
+  border: 0;
+  outline: 0;
+  position: absolute;
+}
+.frame-child28 {
+  background-color: var(--color-mediumseagreen);
+  top: 764px;
+  left: 116px;
+  border-radius: var(--br-3xs);
+  width: 98px;
+  height: 27px;
+}
+.view-file {
+  font-weight: 300;
+  font-family: var(--font-rubik);
+  font-size: var(--font-size-smi);
+  background-color: transparent;
+  top: 770px;
+  left: 138px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 76px;
+  height: 14px;
+}
+.rectangle-container {
+  position: absolute;
+  height: calc(100% - 191px);
+  top: 104px;
+  bottom: 87px;
+  left: calc(50% - 162px);
+  width: 325px;
+  overflow-y: auto;
+  font-size: var(--font-size-3xs);
+}
+.empoverviewmob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.frame-child29 {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon10 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard2 {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 125px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular2 {
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 61px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.vector-icon12 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular2 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon13 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user2 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 182px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon14 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay2,
+.uitcalender2 {
+  position: absolute;
+  top: 35px;
+  overflow: hidden;
+}
+.uitcalender2 {
+  text-decoration: none;
+  left: 240px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay2 {
+  left: 298px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-parent2 {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 161px);
+  width: 328px;
+  height: 65px;
+}
+.empoverviewmob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

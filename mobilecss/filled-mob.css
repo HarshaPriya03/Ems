@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-4xl: 23px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-ghostwhite: #f6f5fb;
+  --color-white: #fff;
+  --color-mediumseagreen: #45c380;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-black: #000;
+  --color-darkslategray: #313131;
+  --color-orangered: #ff5400;
+  --color-bisque: #ffe2c6;
+  --color-gray: #7f7f7f;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+}
+
+.logo-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 37.5px);
+  width: 99px;
+  height: 92px;
+  object-fit: cover;
+}
+.span1 {
+  color: var(--color-white);
+}
+.hrm1 {
+  color: var(--color-mediumseagreen);
+}
+.anika-hrm1 {
+  margin: 0;
+  position: absolute;
+  top: 92px;
+  left: 91px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  font-family: inherit;
+  text-align: left;
+}
+.frame-child3 {
+  position: absolute;
+  top: 146px;
+  left: 23px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(148.56deg, #fcb368 8.77%, #f45e17 78.5%);
+  width: 298px;
+  height: 339px;
+}
+.you-have-already {
+  position: absolute;
+  top: 263px;
+  left: 55px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.we-already-have {
+  margin: 0;
+}
+.pngfind-1-icon1,
+.we-already-have-container {
+  position: absolute;
+  top: 314px;
+  left: 30px;
+}
+.pngfind-1-icon1 {
+  top: 426px;
+  left: 55px;
+  width: 236px;
+  height: 113px;
+  object-fit: cover;
+}
+.alert-icon,
+.girl-writing-her-wish-list-in {
+  position: absolute;
+  top: 170px;
+  left: 136px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+}
+.girl-writing-her-wish-list-in {
+  top: 485px;
+  left: 21px;
+  width: 230px;
+  height: 230px;
+}
+.logo-1-group {
+  position: absolute;
+  height: calc(100% - 63px);
+  top: 48px;
+  bottom: 15px;
+  left: calc(50% - 170px);
+  width: 321px;
+  overflow-y: auto;
+}
+.logo-1-group1 {
+  position: absolute;
+  /*height: calc(100% - 63px);*/
+  top: 48px;
+  bottom: 15px;
+  left: calc(50% - 170px);
+  width: 321px;
+  overflow-y: hidden;
+}
+.filledmob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

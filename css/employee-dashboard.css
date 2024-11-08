@@ -1,0 +1,640 @@
+.bg4,
+.employeedashboard-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.bg4 {
+  background-color: var(--color-ghostwhite);
+  height: 994px;
+}
+.employeedashboard-child {
+  max-width: 100%;
+  overflow: hidden;
+  height: 81px;
+  object-fit: cover;
+}
+.employeedashboard-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs) var(--br-52xl) var(--br-52xl) var(--br-11xs);
+  width: 366px;
+  height: 994px;
+  object-fit: cover;
+}
+.hrm4 {
+  color: var(--color-mediumseagreen);
+}
+.anikahrm4,
+.employee-management4 {
+  text-decoration: none;
+  position: absolute;
+  font-size: var(--font-size-19xl);
+}
+.anikahrm4 {
+  top: 157px;
+  left: 90px;
+  color: inherit;
+}
+.employee-management4 {
+  top: 18px;
+  left: 385px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.employeedashboard-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 836px;
+  left: 32px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(90deg, #f9840d, #f35d16);
+  width: 200px;
+  height: 55px;
+}
+.logout4 {
+  position: absolute;
+  top: 851px;
+  left: 113px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+}
+.attendance4,
+.leaves4,
+.payroll4 {
+  position: absolute;
+  font-weight: 300;
+}
+.leaves4 {
+  text-decoration: none;
+  top: 427px;
+  left: 99px;
+  color: inherit;
+}
+.attendance4,
+.payroll4 {
+  left: 102px;
+}
+.attendance4 {
+  text-decoration: none;
+  top: 491px;
+  color: inherit;
+}
+.payroll4 {
+  top: 557px;
+}
+.vector-icon13 {
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  top: 10%;
+  right: 5%;
+  bottom: 5%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fluentperson-clock-20-regular4 {
+  text-decoration: none;
+  top: 427px;
+  left: 40px;
+}
+.arcticonsgoogle-pay4,
+.fluentperson-clock-20-regular4,
+.uitcalender-icon4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.uitcalender-icon4 {
+  top: 560px;
+  left: 40px;
+  display: none;
+}
+.arcticonsgoogle-pay4 {
+  top: 558px;
+  left: 43px;
+}
+.employeedashboard-child1 {
+  position: absolute;
+  top: 4px;
+  right: 41px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon4 {
+  position: absolute;
+  top: 19px;
+  right: 56px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.employeedashboard-child2 {
+  position: absolute;
+  top: 343px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 368px;
+  height: 69px;
+  object-fit: cover;
+}
+.tablerlogout-icon4 {
+  top: 849px;
+  left: 70px;
+  width: 30px;
+  height: 30px;
+}
+.tablerlogout-icon4,
+.uitcalender4,
+.vector-icon14 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon14 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.uitcalender4 {
+  text-decoration: none;
+  top: 491px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+}
+.frame-child52 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 744px;
+  height: 399px;
+  object-fit: cover;
+}
+.mohan-reddy,
+.web-developer {
+  margin: 0;
+  position: absolute;
+  font-size: var(--font-size-6xl);
+}
+.mohan-reddy {
+  top: 301px;
+  left: 92px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+}
+.web-developer {
+  top: 345px;
+  left: 88px;
+  font-weight: 300;
+}
+.screenshot-2023-10-27-141446-1 {
+  position: absolute;
+  top: 4px;
+  left: 14px;
+  width: 304px;
+  height: 294px;
+  object-fit: cover;
+}
+.frame-icon {
+  position: absolute;
+  top: 35px;
+  left: 367px;
+  width: 45px;
+  height: 45px;
+}
+.basic-info,
+.job-info {
+  margin: 0;
+  position: absolute;
+  top: 39px;
+  left: 445px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+}
+.job-info {
+  top: 230px;
+}
+
+.full-name-mohan,
+.join-date-24112022 {
+  margin: 0;
+  position: absolute;
+  top: 45px;
+  left: 445px;
+  font-weight: 300;
+}
+.join-date-24112022 {
+  top: 256px;
+}
+.birthday-17062002,
+.department-it,
+/* .employee-id-1920 */
+.status-active {
+  margin: 0;
+  position: absolute;
+  top: 127px;
+  left: 445px;
+  font-weight: 300;
+}
+.employee-id-1920,
+.status-active
+{
+  margin: 0;
+  position: absolute;
+  top: 103px;
+  left: 445px;
+  font-weight: 300;
+}
+.birthday-17062002,
+.department-it, 
+.status-active {
+  top: 265px;
+}
+.birthday-17062002,
+.status-active {
+  top: 160px;
+}
+.status-active {
+  top: 340px;
+}
+.frame-child53 {
+  position: absolute;
+  top: 4px;
+  left: 774px;
+  border-radius: var(--br-xl);
+  width: 303px;
+  height: 395px;
+  object-fit: cover;
+}
+.solarsuitcase-outline-icon {
+  position: absolute;
+  top: 211px;
+  left: 367px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.contact-info,
+.phone-9885852424 {
+  margin: 0;
+  position: absolute;
+  left: 806px;
+}
+.contact-info {
+  top: 106px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+}
+.phone-9885852424 {
+  top: 154px;
+  font-weight: 300;
+}
+.email {
+  display: block;
+}
+.company-email-itanikasterili-container,
+.email-naradamohan1gmailcom {
+  margin: 0;
+  position: absolute;
+  top: 210px;
+  left: 806px;
+  font-weight: 300;
+}
+.company-email-itanikasterili-container {
+  top: 291px;
+}
+.vector-icon15 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child54,
+.vector-wrapper {
+  position: absolute;
+  top: 28px;
+  left: 910px;
+  width: 45px;
+  height: 45px;
+}
+.frame-child54 {
+  top: 421px;
+  left: 9px;
+  border-radius: var(--br-xl);
+  width: 516px;
+  height: 371px;
+  object-fit: cover;
+}
+.leave-balance {
+  margin: 0;
+  position: absolute;
+  top: 436px;
+  left: 29px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+  display: inline-block;
+  width: 169px;
+  height: 27px;
+}
+.frame-child55 {
+  position: absolute;
+  top: 421px;
+  left: 557px;
+  border-radius: var(--br-xl);
+  width: 516px;
+  height: 371px;
+  object-fit: cover;
+}
+.leave-requests-from,
+.leaves-list {
+  margin: 0;
+  position: absolute;
+  top: 481px;
+  left: 585px;
+  font-weight: 300;
+  display: inline-block;
+  width: 282px;
+  height: 22px;
+}
+.leaves-list {
+  top: 436px;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+  width: 131px;
+  height: 27px;
+}
+.frame-child56,
+.frame-child57,
+.frame-child58 {
+  position: absolute;
+  top: 469px;
+  left: 34px;
+  width: 468px;
+  height: 1px;
+  object-fit: cover;
+}
+.frame-child57,
+.frame-child58 {
+  left: 585px;
+}
+.frame-child58 {
+  top: 547px;
+  left: 583px;
+}
+.frame-child59,
+.frame-child60,
+.frame-child61,
+.frame-child62 {
+  position: absolute;
+  top: 584px;
+  left: 585px;
+  width: 468px;
+  height: 1px;
+  object-fit: cover;
+}
+.frame-child60,
+.frame-child61,
+.frame-child62 {
+  top: 621px;
+  left: 583px;
+}
+.frame-child61,
+.frame-child62 {
+  top: 659px;
+}
+.frame-child62 {
+  top: 696px;
+}
+.frame-child63 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 476px;
+  left: 892px;
+  border-radius: var(--br-31xl);
+  width: 169px;
+  height: 31px;
+}
+.view-leave-list {
+  text-decoration: none;
+  position: absolute;
+  top: 481px;
+  left: 908px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  width: 140px;
+  height: 22px;
+}
+.december-2022,
+.february-2023,
+.january-2023,
+.march-2023,
+.november-2022 {
+  margin: 0;
+  position: absolute;
+  top: 519px;
+  left: 585px;
+  font-weight: 300;
+  display: inline-block;
+  width: 144px;
+  height: 21px;
+}
+.december-2022,
+.february-2023,
+.january-2023,
+.march-2023 {
+  top: 556px;
+  left: 582px;
+}
+.february-2023,
+.january-2023,
+.march-2023 {
+  top: 593px;
+  left: 585px;
+  width: 126px;
+}
+.february-2023,
+.march-2023 {
+  top: 630px;
+  left: 583px;
+  width: 132px;
+  height: 22px;
+}
+.march-2023 {
+  top: 668px;
+  width: 107px;
+  height: 21px;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: calc(50% - 330px);
+  left: calc(50% - 350.5px);
+  width: 1077px;
+  height: 792px;
+  font-size: var(--font-size-xl);
+}
+.frame-child64 {
+  position: absolute;
+  width: 125.53%;
+  top: 0;
+  right: 0;
+  left: -25.53%;
+  background-color: var(--color-white);
+  height: 64px;
+}
+.frame-child65 {
+  position: absolute;
+  top: 11px;
+  left: 212.5px;
+  width: 2px;
+  height: 44px;
+}
+.frame-child66,
+.frame-child67,
+.frame-child68,
+.frame-child69 {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 362px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke);
+  width: 199px;
+  height: 45px;
+  cursor: pointer;
+}
+.frame-child67,
+.frame-child68,
+.frame-child69 {
+  left: calc(50% - 153px);
+}
+.frame-child68,
+.frame-child69 {
+  left: calc(50% + 261px);
+}
+.frame-child69 {
+  left: calc(50% + 54px);
+}
+.document4,
+.job5,
+.personal-details5,
+.salary5 {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 339px);
+  color: inherit;
+  display: inline-block;
+  width: 152px;
+  height: 22px;
+  cursor: pointer;
+}
+.document4,
+.job5,
+.salary5 {
+  left: calc(50% - 72px);
+  width: 86px;
+}
+.document4,
+.salary5 {
+  left: calc(50% + 311px);
+  width: 105px;
+}
+.salary5 {
+  left: calc(50% + 128px);
+  width: 86px;
+}
+.rectangle-parent6 {
+  position: absolute;
+  width: 79.56%;
+  top: calc(50% - 419px);
+  right: 0;
+  left: 20.44%;
+  height: 64px;
+  font-size: var(--font-size-xl);
+}
+.dashboard4 {
+  text-decoration: none;
+  position: absolute;
+  top: 362px;
+  left: 99px;
+  font-weight: 300;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.vector-icon16 {
+  position: absolute;
+  height: 81.67%;
+  width: 90%;
+  top: 9.33%;
+  right: 5%;
+  bottom: 9%;
+  left: 5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akar-iconsdashboard4 {
+  text-decoration: none;
+  position: absolute;
+  top: 362px;
+  left: 43px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.logo-1-icon4 {
+  position: absolute;
+  top: 6px;
+  left: 102px;
+  width: 163px;
+  height: 151px;
+  object-fit: cover;
+}
+.employeedashboard {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 994px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

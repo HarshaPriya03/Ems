@@ -1,0 +1,331 @@
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 333px;
+  height: 580px;
+}
+.apply-a-leave,
+.apply-leave1 {
+  position: absolute;
+  color: var(--color-black);
+}
+.apply-leave1 {
+  text-decoration: none;
+  top: 19px;
+  left: calc(50% - 56.5px);
+  font-size: var(--font-size-xl);
+}
+.apply-a-leave {
+  margin: 0;
+  top: 64px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  width: 101px;
+  height: 18px;
+}
+.line-icon {
+  position: absolute;
+  top: 93px;
+  left: 7px;
+  max-height: 100%;
+  width: 319px;
+  object-fit: cover;
+}
+.employee-name,
+.from-date,
+.leave-type,
+.reason,
+.to-date {
+  cursor: pointer;
+  position: absolute;
+  top: 114px;
+  left: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 108px;
+  height: 21px;
+}
+.from-date,
+.leave-type,
+.reason,
+.to-date {
+  top: 186px;
+  left: 20px;
+}
+.from-date,
+.reason,
+.to-date {
+  top: 258px;
+}
+.reason,
+.to-date {
+  top: 330px;
+}
+.reason {
+  top: 402px;
+  left: 18px;
+}
+.frame-child7,
+.frame-child8,
+.frame-child9,
+.rectangle-input,
+.rectangle-textarea {
+  border: 1px solid var(--color-gray);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 142px;
+  left: 18px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 294px;
+  height: 35px;
+}
+.frame-child7,
+.frame-child8,
+.frame-child9,
+.rectangle-textarea {
+  top: 214px;
+  left: 20px;
+}
+.frame-child8,
+.frame-child9,
+.rectangle-textarea {
+  top: 286px;
+}
+.frame-child9,
+.rectangle-textarea {
+  top: 358px;
+}
+.rectangle-textarea {
+  top: 430px;
+  left: 18px;
+  height: 86px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  position: absolute;
+  top: 526px;
+  left: 205px;
+  border-radius: var(--br-31xl);
+  box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+  width: 102px;
+  height: 34px;
+}
+.apply {
+  text-decoration: none;
+  position: absolute;
+  top: 534px;
+  left: 238px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 53px;
+  height: 18px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  height: calc(100% - 209px);
+  top: 123px;
+  bottom: 86px;
+  left: calc(50% - 166px);
+  width: 333px;
+  overflow-y: auto;
+}
+.logo-1-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.leaves-list1 {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent1 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.applyleaveemp-mob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.applyleaveemp-mob-item {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(89.89deg, #fb880e, #f55f17);
+  height: 41px;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay3,
+.uitcalender3 {
+  position: absolute;
+  top: 36px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.uitcalender3 {
+  text-decoration: none;
+  left: 195px;
+  width: 27px;
+  height: 27px;
+}
+.arcticonsgoogle-pay3 {
+  left: 293px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.frame-child10 {
+  position: absolute;
+  top: 0;
+  left: -9px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon12 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard3 {
+  text-decoration: none;
+  position: absolute;
+  top: 38px;
+  left: 98px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon13 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular3 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.uitcalender-group {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 161px);
+  width: 323px;
+  height: 66px;
+}
+.frame-child11,
+.frame-child12 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 91.5px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-bisque);
+  width: 77px;
+  height: 24px;
+}
+.frame-child12 {
+  left: calc(50% + 14.5px);
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.apply-leave2,
+.my-leaves1 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 6px);
+  display: inline-block;
+  width: 57px;
+  height: 11px;
+}
+.apply-leave2 {
+  left: calc(50% - 80.5px);
+  color: inherit;
+}
+.my-leaves1 {
+  left: calc(50% + 29.5px);
+  color: var(--color-black);
+  cursor: pointer;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 78px;
+  left: calc(50% - 91px);
+  width: 183px;
+  height: 24px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-orangered);
+}
+.applyleaveemp-mob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-rubik);
+}

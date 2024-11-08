@@ -1,0 +1,245 @@
+.bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-ghostwhite);
+    height: 994px;
+  }
+  .emailform2-child,
+  .logo-1-icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .emailform2-child {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 104px;
+  }
+  .logo-1-icon {
+    top: 5px;
+    left: 39px;
+    width: 101px;
+    height: 94px;
+  }
+  .hrm {
+    color: var(--color-mediumseagreen);
+  }
+  .anikahrm,
+  .employee-management {
+    text-decoration: none;
+    position: absolute;
+    color: inherit;
+  }
+  .anikahrm {
+    top: 34px;
+    left: 151px;
+  }
+  .employee-management {
+    top: 30px;
+    left: calc(50% - 223.5px);
+    font-size: var(--font-size-26xl);
+    cursor: pointer;
+  }
+  .uitcalender-icon {
+    position: absolute;
+    top: 560px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: none;
+  }
+  .material-symbolsperson-icon {
+    position: absolute;
+    top: 19px;
+    right: 56px;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+  }
+  .bxhome {
+    position: absolute;
+    top: 93px;
+    left: 484px;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .frame-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1461px;
+    height: 811px;
+  }
+  .bank-account-number,
+  .bank-name,
+  .pan {
+    cursor: pointer;
+    position: absolute;
+    top: 121px;
+    left: 47px;
+    font-weight: 300;
+    display: inline-block;
+    width: 203px;
+    height: 28px;
+  }
+  .bank-account-number,
+  .bank-name {
+    top: 242px;
+    width: 258px;
+    height: 29px;
+  }
+  .bank-name {
+    top: 364px;
+    width: 203px;
+    height: 28px;
+  }
+  .aadhaar-number {
+    cursor: pointer;
+    top: 120px;
+    left: 760px;
+    width: 196px;
+    height: 28px;
+  }
+  .aadhaar-number,
+  .identity-details,
+  .ifsc-code {
+    position: absolute;
+    font-weight: 300;
+    display: inline-block;
+  }
+  .ifsc-code {
+    cursor: pointer;
+    top: 241px;
+    left: 760px;
+    width: 145px;
+    height: 29px;
+  }
+  .identity-details {
+    margin: 0;
+    top: 26px;
+    left: 47px;
+    font-size: var(--font-size-6xl);
+    font-family: inherit;
+    color: var(--color-black);
+    width: 286px;
+    height: 34px;
+  }
+  .line-icon {
+    position: absolute;
+    top: 82px;
+    left: 33px;
+    width: 1397px;
+    height: 1px;
+    object-fit: cover;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .frame-child4,
+  .rectangle-input {
+    border: 1px solid var(--color-gray);
+    background-color: var(--color-white);
+    position: absolute;
+    top: 159px;
+    left: 47px;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 632px;
+    height: 63px;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .frame-child4 {
+    top: 281px;
+  }
+  .frame-child2,
+  .frame-child3,
+  .frame-child4 {
+    top: 403px;
+  }
+  .frame-child3,
+  .frame-child4 {
+    top: 159px;
+    left: 760px;
+    width: 634px;
+  }
+  .frame-child4 {
+    top: 281px;
+  }
+  .rectangle-button {
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumseagreen);
+    top: 660px;
+    left: 1160px;
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 234px;
+    height: 68px;
+  }
+  .frame-child5,
+  .next,
+  .prev,
+  .rectangle-button {
+    position: absolute;
+    cursor: pointer;
+  }
+  .frame-child5 {
+    border: 0;
+    padding: 0;
+    background-color: var(--color-mediumseagreen);
+    top: 660px;
+    left: 59px;
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 235px;
+    height: 68px;
+  }
+  .next,
+  .prev {
+    text-decoration: none;
+    top: 676px;
+    left: 1246px;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    display: inline-block;
+    width: 105px;
+    height: 35px;
+  }
+  .prev {
+    left: 145px;
+    width: 104px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    width: 88.6%;
+    top: calc(50% - 338px);
+    right: 5.94%;
+    left: 5.46%;
+    height: 811px;
+    font-size: var(--font-size-xl);
+    color: var(--color-darkslategray);
+  }
+  .emailform2 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 994px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-19xl);
+    color: var(--color-white);
+    font-family: var(--font-rubik);
+  }
+  

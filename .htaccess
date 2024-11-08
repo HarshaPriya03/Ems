@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hrms\.anikasterilis\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hrms\.anikasterilis\.com$
+RewriteRule ^/?$ "https\:\/\/hrms\.anikasterilis\.com\/loginpage\.php" [R=301,L]
+
+php_value max_input_vars 6000
+php_value suhosin.get.max_vars 6000
+php_value suhosin.post.max_vars 6000
+php_value suhosin.request.max_vars 6000

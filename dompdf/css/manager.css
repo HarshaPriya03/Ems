@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-26xl: 45px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-dimgray: #515151;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }
+  .bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f6f5fb;
+    height: 994px;
+  }
+  .logo-1-icon,
+  .managerdash-child {
+    position: absolute;
+    object-fit: cover;
+  }
+  .managerdash-child {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 104px;
+  }
+  .logo-1-icon {
+    top: 5px;
+    left: 39px;
+    width: 101px;
+    height: 94px;
+  }
+  .hrm {
+    color: #45c380;
+  }
+  .anikahrm {
+    text-decoration: none;
+    position: absolute;
+    top: 34px;
+    left: 151px;
+    color: inherit;
+  }
+  .hello-manager,
+  .welcome-to-hrms {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 178px);
+  }
+  .welcome-to-hrms {
+    top: 65px;
+    left: calc(50% - 202px);
+  }
+  .frame-child,
+  .frame-item {
+    position: absolute;
+    top: 146px;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background: linear-gradient(147.46deg, #ff920d, #f45e17);
+    box-shadow: 10px 10px 4px rgba(255, 146, 13, 0.5);
+    width: 483px;
+    height: 611px;
+  }
+  .frame-item {
+    left: 673px;
+  }
+  .employee-portal,
+  .manager-portal {
+    position: absolute;
+    top: 301px;
+    left: 83px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .employee-portal {
+    left: 744px;
+  }
+  .business-deal-icon,
+  .business-report-icon {
+    position: absolute;
+    top: 364px;
+    left: 48px;
+    width: 391px;
+    height: 391px;
+    object-fit: cover;
+  }
+  .business-report-icon {
+    top: 390px;
+    left: 725px;
+    width: 389px;
+    height: 365px;
+  }
+  .right-button-icon,
+  .right-button-icon1 {
+    position: absolute;
+    top: 160px;
+    left: 179px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+  }
+  .right-button-icon1 {
+    left: 855px;
+  }
+  .employee-management,
+  .hello-manager-parent {
+    position: absolute;
+    font-size: var(--font-size-26xl);
+  }
+  .hello-manager-parent {
+    height: calc(100% - 237px);
+    top: 177px;
+    bottom: 60px;
+    left: calc(50% - 564.5px);
+    width: 1156px;
+    text-align: left;
+    color: var(--color-dimgray);
+    font-family: var(--font-rubik);
+  }
+  .employee-management {
+    text-decoration: none;
+    top: 30px;
+    left: calc(50% - 223.5px);
+    color: inherit;
+    cursor: pointer;
+  }
+  .uitcalender-icon {
+    position: absolute;
+    top: 560px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: none;
+  }
+  .material-symbolsperson-icon {
+    position: absolute;
+    top: 19px;
+    right: 56px;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+  }
+  .bxhome {
+    position: absolute;
+    top: 93px;
+    left: 484px;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .managerdash {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 994px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 38px;
+    color: var(--color-white);
+    font-family: var(--font-rubik);
+  }
+  

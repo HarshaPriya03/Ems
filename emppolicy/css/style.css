@@ -1,0 +1,457 @@
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #0867C6;
+}
+
+body {
+    overflow: hidden;
+}
+
+.maindash {
+    /* background-color: #F4F4FA; */
+    margin-top: 10px;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); */
+    padding: 10px;
+    height: 83vh;
+    display: flex;
+    gap: 10px;
+}
+
+.policieslist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.polidiv {
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    width: 260px;
+    display: flex;
+    gap: 60px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.polidiv1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    width: 280px;
+    display: flex;
+    gap: 60px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.infograph {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.chart {
+    background-color: white;
+    width: 39.3%;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 400px;
+}
+
+.chart1 {
+    margin-top: 10px;
+    background-color: white;
+    width: 39.3%;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 350px;
+}
+
+.live {
+    background-color: white;
+    width: 20%;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 400px;
+}
+
+.live1 {
+    margin-top: 10px;
+    background-color: white;
+    width: 60%;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 350px;
+}
+
+.topdiv {
+    background-color: #F4f4fa;
+    padding: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.enable {
+    display: flex;
+    float: right;
+    gap: 7px;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+.policy {
+    display: flex;
+    margin-left: 10px;
+}
+
+.summ {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.lastdiv {
+    display: flex;
+    gap: 10px;
+}
+
+.maintab {
+    height: 815px;
+    overflow-y: auto;
+}
+
+.backbtn {
+    background-color: #FBFAFB;
+    position: absolute;
+    right: 100px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.reloadbtn {
+    background-color: #FBFAFB;
+    position: absolute;
+    right: 40px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.addpolbtn {
+    position: absolute;
+    right: 160px;
+    margin-top: 2px;
+}
+
+.topbardetails {
+    background-color: #036CD0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.detaildiv {
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.leftdiv {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rightdiv {
+    background-color: white;
+    width: 79.6%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ullisty {
+    background-color: #d3eaff;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-left: 5px solid #026ACB;
+    cursor: pointer;
+}
+
+.ullisty1 {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.ullisty1:hover {
+    background-color: #d3eaff;
+    border-left: 5px solid #026ACB;
+}
+
+.mobileview {
+    display: none;
+}
+
+.mobdiv {
+    background-color: #d3eaff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.mobdiv1 {
+    font-size: 15px;
+}
+
+.mobdiv1:hover {
+    background-color: #d3eaff;
+}
+
+.rejectbtn {
+    background-color: rgb(255, 222, 222);
+    color: rgb(255, 41, 41);
+    border: 1px solid rgb(255, 41, 41);
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.publishbtn {
+    background-color: rgb(222, 255, 222);
+    color: rgb(14, 145, 14);
+    border: 1px solid rgb(14, 145, 14);
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.rightcontent {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-top: -130px;
+    gap: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    width: 400px;
+    background-color: #edf5fd;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.inpara1 {
+    display: flex;
+    padding-right: 20px;
+    border-right: 1px solid rgb(190, 190, 190);
+    gap: 7px;
+}
+
+.inpara2 {
+    display: flex;
+    gap: 7px;
+}
+
+.rightdivpara {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .policieslist {
+        gap: 10px;
+    }
+
+    .live {
+        width: 40%;
+    }
+
+    .infograph {
+        flex-direction: column;
+    }
+
+    .chart {
+        width: 100%;
+    }
+
+    .chart1 {
+        width: 100%;
+    }
+
+    .live {
+        width: 100%;
+    }
+
+    .maindash {
+        height: 100%;
+    }
+
+    body {
+        overflow: auto;
+    }
+
+    .lastdiv {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .live1 {
+        width: 100%;
+    }
+
+    .maindash {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .policieslist {
+        gap: 10px;
+    }
+
+    .live {
+        width: 40%;
+    }
+
+    .infograph {
+        flex-direction: column;
+    }
+
+    .chart {
+        width: 100%;
+    }
+
+    .chart1 {
+        width: 100%;
+    }
+
+    .live {
+        width: 100%;
+    }
+
+    .maindash {
+        height: 100%;
+    }
+
+    .enable {
+        margin-right: 0px;
+    }
+
+    .policy {
+        margin-left: 0px;
+    }
+
+    .summ {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    body {
+        overflow: auto;
+    }
+
+    .lastdiv {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .live1 {
+        width: 100%;
+    }
+
+    .backbtn {
+        display: none;
+    }
+
+    .reloadbtn {
+        display: none;
+    }
+
+    .addpolbtn {
+        scale: 0.8;
+        right: 94px;
+    }
+
+    .topbardetails {
+        scale: 0.8;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .detaildiv {
+        display: none;
+    }
+
+    .maindash {
+        height: 90vh;
+        flex-direction: column;
+    }
+
+    .leftdiv {
+        display: none;
+    }
+
+    .rightdiv {
+        width: 100%;
+    }
+
+    .mobileview {
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .mobdiv1:hover {
+        background-color: #d3eaff;
+    }
+
+    .detaildiv {
+        scale: 0.7;
+        margin-left: 0px;
+    }
+    .rightdivpara{
+        margin-top: 70px;
+    }
+    .rightcontent{
+        scale: 0.8;
+        margin-right: -30px;
+        margin-top: -200px;
+    }
+}

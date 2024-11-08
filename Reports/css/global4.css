@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+    --font-inherit: inherit;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-6xl: 25px;
+    --font-size-4xl: 23px;
+    --font-size-19xl: 38px;
+    --font-size-16xl: 35px;
+    --font-size-36xl: 55px;
+    --font-size-5xl: 24px;
+    --font-size-11xl: 30px;
+    --font-size-13xl: 32px;
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gainsboro-100: #e8e8e8;
+    --color-gainsboro-200: #e4e4e4;
+    --color-gainsboro-300: rgba(217, 217, 217, 0);
+    --color-darkslategray: #313131;
+    --color-mediumseagreen: #45c380;
+    --color-ghostwhite: #f6f5fb;
+    --color-gray-100: #7f7f7f;
+    --color-gray-200: #1c1c1c;
+    --color-gray-300: rgba(255, 255, 255, 0.32);
+    --color-gray-400: rgba(255, 255, 255, 0);
+    --color-lightgray: #cfcfcf;
+    --color-orangered-100: #ff6e24;
+    --color-orangered-200: #ff5400;
+    --color-bisque: #ffe2c6;
+    --color-pink: #ffc2c2;
+    --color-lavenderblush: #fff2f2;
+    --color-mediumslateblue: #0066ff;
+    --color-lightskyblue: #97c1ff;
+  
+    /* Paddings */
+    --padding-8xl: 27px;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+    --br-xl: 20px;
+    --br-11xs: 2px;
+    --br-52xl: 71px;
+    --br-3xs: 10px;
+  }
+  

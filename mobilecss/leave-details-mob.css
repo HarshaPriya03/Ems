@@ -1,0 +1,653 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+    --font-size-xl: 20px;
+    --font-size-3xs: 10px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gainsboro: #e8e8e8;
+  
+    /* Border radiuses */
+    --br-31xl: 50px;
+  }
+  .logo-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 41px;
+    height: 38px;
+    object-fit: cover;
+  }
+  .leaves-list {
+    text-decoration: none;
+    position: absolute;
+    top: 7px;
+    left: 41px;
+    color: inherit;
+  }
+  .logo-1-parent {
+    position: absolute;
+    top: 23px;
+    left: 12px;
+    width: 171px;
+    height: 38px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+  .material-symbolsperson-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+  }
+  .leavedetailsmob-child {
+    position: absolute;
+    width: 100%;
+    top: 68px;
+    right: 0;
+    left: 0;
+    background: linear-gradient(89.89deg, #fb880e, #f55f17);
+    height: 41px;
+  }
+  .frame-child1,
+  .frame-inner,
+  .frame-item,
+  .rectangle-a {
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 12px);
+    border-radius: var(--br-31xl);
+    width: 77px;
+    height: 24px;
+  }
+  .frame-item {
+    left: calc(50% - 158.5px);
+    background-color: #ffe2c6;
+  }
+  .frame-child1,
+  .frame-inner,
+  .rectangle-a {
+    left: calc(50% - 78.5px);
+    background-color: var(--color-gainsboro);
+  }
+  .frame-child1,
+  .rectangle-a {
+    left: calc(50% + 1.5px);
+  }
+  .frame-child1 {
+    left: calc(50% + 81.5px);
+  }
+  .apply-leave,
+  .assign-leave,
+  .leaves-list1,
+  .my-leaves {
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(50% - 145.5px);
+    color: #ff5400;
+    display: inline-block;
+    width: 57px;
+    height: 11px;
+  }
+  .apply-leave,
+  .assign-leave,
+  .my-leaves {
+    left: calc(50% - 70.5px);
+    color: inherit;
+    width: 62px;
+  }
+  .apply-leave,
+  .my-leaves {
+    left: calc(50% + 12.5px);
+    width: 57px;
+  }
+  .my-leaves {
+    left: calc(50% + 96.5px);
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 77px;
+    left: calc(50% - 159px);
+    width: 317px;
+    height: 24px;
+    font-size: var(--font-size-3xs);
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    width: 332px;
+    height: 463px;
+  }
+  .leave-details {
+    text-decoration: none;
+    position: absolute;
+    top: 9px;
+    left: calc(50% - 62px);
+    font-size: var(--font-size-xl);
+    color: inherit;
+  }
+  .line-icon {
+    position: absolute;
+    top: 40px;
+    left: 7px;
+    max-height: 100%;
+    width: 319px;
+    object-fit: cover;
+  }
+  .frame-child2,
+  .frame-child3 {
+    position: absolute;
+    top: 39px;
+    height: 354px;
+    object-fit: contain;
+  }
+  .frame-child2 {
+    left: 7px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .frame-child3 {
+    left: 325px;
+    width: 1px;
+  }
+  .frame-child4,
+  .frame-child5,
+  .frame-child6,
+  .frame-child7,
+  .frame-child8 {
+    position: absolute;
+    top: 342px;
+    left: 7px;
+    max-height: 100%;
+    width: 319px;
+    object-fit: cover;
+  }
+  .frame-child5,
+  .frame-child6,
+  .frame-child7,
+  .frame-child8 {
+    top: 393px;
+  }
+  .frame-child6,
+  .frame-child7,
+  .frame-child8 {
+    top: 202px;
+  }
+  .frame-child7,
+  .frame-child8 {
+    top: 256px;
+  }
+  .frame-child8 {
+    top: 313px;
+  }
+  .frame-child9 {
+    top: 169px;
+    left: 7px;
+    width: 319px;
+  }
+  .frame-child10,
+  .frame-child11,
+  .frame-child12,
+  .frame-child9 {
+    position: absolute;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .frame-child10 {
+    height: calc(100% - 447px);
+    top: 139px;
+    bottom: 308px;
+    left: calc(50% - 159px);
+    width: 319px;
+  }
+  .frame-child11,
+  .frame-child12 {
+    top: 71px;
+    left: 123px;
+    width: 202px;
+  }
+  .frame-child12 {
+    top: 103px;
+  }
+  .frame-child13,
+  .frame-child14,
+  .frame-child15 {
+    position: absolute;
+    top: 39px;
+    left: 123px;
+    width: 0;
+    height: 100px;
+    object-fit: contain;
+  }
+  .frame-child14,
+  .frame-child15 {
+    top: 139px;
+    left: 166px;
+    height: 63px;
+  }
+  .frame-child15 {
+    top: 313px;
+    height: 29px;
+  }
+  .ellipse-icon {
+    position: absolute;
+    top: 46px;
+    right: 227px;
+    border-radius: 50%;
+    width: 81px;
+    height: 81px;
+    object-fit: cover;
+  }
+  .material-symbolsperson-icon1 {
+    position: absolute;
+    top: 70px;
+    right: 245px;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+  }
+  .email-id,
+  .employee-name,
+  .phone-number {
+    position: absolute;
+    top: 47px;
+    left: 126px;
+    font-weight: 300;
+  }
+  .email-id,
+  .phone-number {
+    top: 78px;
+  }
+  .phone-number {
+    top: 112px;
+  }
+  .hr-remarks,
+  .leave-applied,
+  .leave-from,
+  .leave-reason {
+    position: absolute;
+    top: 147px;
+    left: 11px;
+    font-weight: 300;
+  }
+  .hr-remarks,
+  .leave-applied,
+  .leave-reason {
+    top: 178px;
+  }
+  .hr-remarks,
+  .leave-reason {
+    top: 219px;
+  }
+  .hr-remarks {
+    top: 276px;
+  }
+  .approver,
+  .approver-action-on,
+  .prabhdeep-singh {
+    position: absolute;
+    top: 321px;
+    left: 11px;
+    font-weight: 300;
+  }
+  .approver-action-on,
+  .prabhdeep-singh {
+    left: 168px;
+  }
+  .prabhdeep-singh {
+    border: 0;
+    outline: 0;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    left: 65px;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .leave-to,
+  .rejection-reason,
+  .status {
+    position: absolute;
+    top: 358px;
+    left: 11px;
+    font-weight: 300;
+  }
+  .leave-to,
+  .status {
+    top: 147px;
+    left: 170px;
+  }
+  .status {
+    top: 178px;
+    left: 168px;
+  }
+  .input,
+  .input1,
+  .input2,
+  .mohan-reddy,
+  .naradamohan1gmailcom {
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    position: absolute;
+    top: 48px;
+    left: 220px;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .input,
+  .input1,
+  .input2,
+  .naradamohan1gmailcom {
+    top: 78px;
+    left: 172px;
+  }
+  .input,
+  .input1,
+  .input2 {
+    top: 112px;
+    left: 213px;
+  }
+  .input1,
+  .input2 {
+    top: 147px;
+    left: 79px;
+  }
+  .input2 {
+    top: 178px;
+    left: 91px;
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .fever,
+  .fever2 {
+    display: inline-block;
+    height: 43px;
+  }
+  .fever {
+    border: 0;
+    background-color: transparent;
+    font-weight: 300;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-xs);
+    outline: 0;
+    position: absolute;
+    top: 206px;
+    left: 91px;
+    color: var(--color-black);
+    text-align: left;
+    width: 231px;
+  }
+  .fever2 {
+    top: 263px;
+    left: 83px;
+    width: 239px;
+  }
+  .approved,
+  .fever2,
+  .fever4,
+  .input3 {
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    position: absolute;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .fever4 {
+    top: 345px;
+    left: 110px;
+    display: inline-block;
+    width: 212px;
+    height: 43px;
+  }
+  .approved,
+  .input3 {
+    top: 147px;
+    left: 221px;
+  }
+  .approved {
+    top: 178px;
+    left: 208px;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #45c380;
+    position: absolute;
+    top: 406px;
+    left: calc(50% - 51px);
+    border-radius: var(--br-31xl);
+    box-shadow: 5px 7px 4px rgba(69, 195, 128, 0.41);
+    width: 102px;
+    height: 34px;
+  }
+  .set-action {
+    text-decoration: none;
+    position: absolute;
+    top: 415px;
+    left: calc(50% - 32px);
+    font-size: 13px;
+    color: var(--color-white);
+    display: inline-block;
+    width: 63px;
+    height: 14px;
+  }
+  .input4,
+  .rectangle-group {
+    position: absolute;
+    font-size: var(--font-size-xs);
+  }
+  .input4 {
+    border: 0;
+    outline: 0;
+    font-weight: 300;
+    font-family: var(--font-rubik);
+    background-color: transparent;
+    top: 322px;
+    left: 275px;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .rectangle-group {
+    height: calc(100% - 326px);
+    top: 125px;
+    bottom: 201px;
+    left: calc(50% - 166px);
+    width: 332px;
+    overflow-y: auto;
+  }
+  .leavedetailsmob-item {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #fb890d, #f45e17);
+    height: 47px;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    width: 55px;
+    height: 55px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 75%;
+    width: 83.46%;
+    top: 12.69%;
+    right: 8.08%;
+    bottom: 12.31%;
+    left: 8.46%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .akar-iconsdashboard {
+    text-decoration: none;
+    position: absolute;
+    top: 36px;
+    left: 135px;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+  }
+  .vector-icon1 {
+    position: absolute;
+    height: 68.89%;
+    width: 87.41%;
+    top: 15.56%;
+    right: 6.3%;
+    bottom: 15.56%;
+    left: 6.3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluentpeople-32-regular {
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 79px;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+  }
+  .vector-icon2 {
+    position: absolute;
+    height: 85.19%;
+    width: 85.19%;
+    top: 10%;
+    right: 4.81%;
+    bottom: 4.81%;
+    left: 10%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluentperson-clock-20-regular {
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+  }
+  .vector-icon3 {
+    position: absolute;
+    height: 95.93%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 4.07%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .fluent-mdl2leave-user {
+    text-decoration: none;
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+  }
+  .vector-icon4 {
+    position: absolute;
+    height: 83.33%;
+    width: 83.33%;
+    top: 8.52%;
+    right: 8.15%;
+    bottom: 8.15%;
+    left: 8.52%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .arcticonsgoogle-pay,
+  .uitcalender {
+    position: absolute;
+    top: 35px;
+    overflow: hidden;
+  }
+  .uitcalender {
+    text-decoration: none;
+    left: 246px;
+    width: 27px;
+    height: 27px;
+  }
+  .arcticonsgoogle-pay {
+    left: 302px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .ellipse-group {
+    position: absolute;
+    bottom: 9px;
+    left: calc(50% - 165px);
+    width: 332px;
+    height: 65px;
+  }
+  .leavedetailsmob {
+    position: relative;
+    background-color: #f6f5fb;
+    width: 100%;
+    height: 774px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-rubik);
+  }
+  

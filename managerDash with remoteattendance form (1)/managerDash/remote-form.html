@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/attendence.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.4-rc1/css/foundation.css'>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+         table {
+        z-index: 100;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  padding: 1em;
+  border-bottom: 2px solid rgb(193, 193, 193); 
+}
+.even {
+  border-bottom: 2px solid #e8e8e8ba; 
+    }
+
+    .odd {
+        background-color: #e9e9e9 !important; 
+    }
+    .quote-imgs-thumbs {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+}
+.quote-imgs-thumbs--hidden {
+  display: none;
+}
+.img-preview-thumb {
+  background: #fff;
+  border: 1px solid #777;
+  border-radius: 0.25rem;
+  box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+  margin-right: 1rem;
+  max-width: 140px;
+  padding: 0.25rem;
+}
+.container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        button {
+            font-size: 16px;
+            cursor: pointer;
+            margin: 4px;
+            padding: 8px 12px;
+            border: none;
+            background: #ffffff;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #f3f3f3;
+        }
+
+        .editor {
+            border: 1px solid #ccc;
+            min-height: 200px;
+            padding: 10px;
+            overflow-y: auto;
+            border-radius: 8px;
+        }
+
+        #charCount,
+        #wordCount {
+            float: right;
+            margin-top: 10px;
+            color: #777;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .toolbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .toolbar button {
+                margin: 4px 0;
+            }
+
+            .editor {
+                min-height: 150px;
+            }
+        }
+
+        ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: #ebebeb;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      background: #bebebe;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="attendence4" style="margin-left:auto;margin-right:auto;">
+      <div class="bg14"></div>
+      <div class="rectangle-parent22" style="margin-left:0px;">
+        <div class="frame-child187"></div>
+            <a class="frame-child188" style="background-color: #E8E8E8;"> </a>
+        <a class="attendence5" style="color: black;">Attendance</a>
+    <a class="frame-child191" id="rectangleLink3" style="margin-left: -450px;"> </a>
+    <a class="frame-child191" id="rectangleLink3" style="margin-left: 35px; background-color: #ffe2c6;"> </a>
+        <a href="attendanceemp.php" class="my-attendence4" id="myAttendence" style="margin-left: -450px;">Attendance log</a>
+        <a class="frame-child191" id="rectangleLink3" href="sheet_emp.php" target="_blank" style="margin-left: -200px;"> </a>
+        <a href="sheet_emp.php" class="my-attendence4" id="myAttendence" target="_blank" style="margin-left: -205px; margin-top:2px; font-size:18px; width:200px">Monthly Attendance</a>
+        <a href="sheet_emp.php" class="my-attendence4" id="myAttendence" style="margin-left: 32px; margin-top:2px; font-size:18px; width:200px; color: #ff5400;">Remote Attendance</a>
+      </div>
+
+      <!-- main div -->
+      <div class="rectangle-parent23" style="margin-left: -20px;">
+        <div style="background-color: white; height: 600px; width: 1270px; border-radius: 20px;"></div>
+        <p style="font-size: 25px; margin-left: 30px; margin-top: -575px; color: rgb(83, 83, 83);";">Add your remote attendance</p>
+        <hr style="width: 2000px; margin-left: 30px; color: rgb(26, 26, 26);">
+       <div style="display: flex; margin-top: 0px;">
+        <label for="" style="color: rgb(83, 83, 83); margin-left: 30px; font-size: 18px;">Employee Name:</label> <br>
+        <input type="text" style="margin-left: 10px; width: 400px; height: 35px; border-radius: 8px; border: 1px solid rgb(83, 83, 83);"><br>
+        <label for="" style="color: rgb(83, 83, 83); margin-left: 30px; font-size: 18px;">Phone Number:</label> <br>
+        <input type="tel" style="margin-left: 10px; width: 400px; height: 35px; border-radius: 8px; border: 1px solid rgb(83, 83, 83);">
+       </div>
+       <div style="display: flex; margin-top:px;">
+        <label for="" style="color: rgb(83, 83, 83); margin-left: 30px; font-size: 18px;">Date and Time:</label> <br>
+        <input type="datetime-local" style="margin-left: 25px; width: 400px; height: 35px; border-radius: 8px; border: 1px solid rgb(83, 83, 83);"><br>
+        <label for="" style="color: rgb(83, 83, 83); margin-left: 43px; font-size: 18px;">Add Location:</label> <br>
+        <span type="text" class="location" style="margin-left: 10px; display: inline-block;max-width: 400px;overflow: auto;  height: 35px; border-radius: 8px; border: 1px solid rgb(83, 83, 83);"></span>
+        <!-- <button class="btn btn-outline-primary" style="height: 40px; margin-left: 20px; margin-top: -3px;">Get Location</button> -->
+       </div>
+       <!-- text editor -->
+       <div style="display: flex; gap: 20px;">
+        <!-- <label for="" style="color: rgb(83, 83, 83); margin-left: 30px; font-size: 18px;">Enter Your report:</label><br> -->
+      
+       <!-- select images -->
+       <div class="grid-x grid-padding-x">
+        <div class="">
+          <!-- <form action="upload_file.php" id="img-upload-form" method="post" enctype="multipart/form-data"> -->
+            <p style="margin-left: 30px; margin-bottom: -30px;"> 
+              <label for="upload_imgs" class="button hollow">Select Your Images +</label>
+              <input class="show-for-sr" type="file" id="upload_imgs" name="upload_imgs[]" multiple/>
+            </p>
+            <div class="quote-imgs-thumbs quote-imgs-thumbs--hidden" style="overflow-y: auto; height: 310px; margin-left: 30px;"  id="img_preview" aria-live="polite"></div>
+            <!-- <p> -->
+              <!-- <input class="button large expanded" type="submit" name="submit" value="Upload Images"/> -->
+            <!-- </p> -->
+          <!-- </form> -->
+        </div>
+      </div>
+      <div class="container"> 
+        <div class="toolbar" >
+            <button onclick="execCmd('bold')" title="Bold"><b>B</b></button>
+            <button onclick="toggleItalic()" title="Italic"><i>I</i></button>
+            <button onclick="execCmd('underline')" title="Underline"><u>U</u></button>
+            <button onclick="toggleOrderedList()" title="Ordered List">1.</button>
+            <button onclick="changeFontSize(3)" title="Heading 3">H3</button>
+            <button onclick="toggleColorMenu()" title="Font Color">A</button>
+            <button onclick="execCmd('justifyLeft')" title="Align Left">L</button>
+            <button onclick="execCmd('justifyCenter')" title="Center">C</button>
+            <button onclick="execCmd('justifyRight')" title="Align Right">R</button>
+            <button onclick="execCmd('fontName', 'Arial')" title="Font Family">Arial</button>
+            <button onclick="createLink()" title="Insert Link">Link</button>
+            <button onclick="clearField()" title="Clear Field">Clear</button>
+            <input type="file" id="fileInput" accept=".png, .jpg, .jpeg, .mp4, .mp3, .pdf" style="display: none;">
+            <button onclick="document.getElementById('fileInput').click()" title="Attach File">Attach File</button>
+        </div>
+        <div class="editor" contenteditable="true" id="editor" oninput="updateCount()">
+            <p>Enter Your Report Here ...</p>
+        </div>
+        <div id="charCount"></div>
+        <div id="wordCount"></div>
+    </div>
+       </div>
+       <button class="btn btn-outline-primary" style="height: 40px; margin-left: 1100px; margin-top: 100px;">Submit Attendance</button>
+
+      </div>
+      <img class="attendence-child" alt="" src="./public/rectangle-1@2x.png" />
+
+      <img class="attendence-item" alt="" src="./public/rectangle-2@2x.png" />
+
+      <img class="logo-1-icon14" alt="" src="./public/logo-1@2x.png" />
+
+      <a class="anikahrm14" href="./employee-dashboard.php" id="anikaHRM">
+        <span>Anika</span>
+        <span class="hrm14">HRM</span>
+      </a>
+      <a
+        class="attendence-management4"
+        href="./employee-dashboard.php"
+        id="attendenceManagement"
+        >Attendance Management</a
+      >
+      <button class="attendence-inner"><a  href="logout.php" style="margin-left:25px; color:white; text-decoration:none; font-size:25px">Logout</a></button>
+      <!--<div class="logout14">Logout</div>-->
+      <a style="margin-top: -35px; text-decoration:none; color:black;" href="card.php" class="payroll14">Directory</a>
+      <img class="uitcalender-icon14" alt="" src="./public/uitcalender.svg" />
+
+      <img style="margin-top: -35px;"
+        class="arcticonsgoogle-pay14"
+        alt=""
+        src="./public/arcticonsgooglepay.svg"
+      />
+
+      <img style="margin-top: -50px;" class="attendence-child2" alt="" src="./public/rectangle-4@2x.png" />
+
+      <a class="dashboard14" style="margin-top: 60px;" href="./employee-dashboard.php" id="dashboard">Dashboard</a>
+      <a style="margin-top: 60px;"
+        class="akar-iconsdashboard14"
+        href="./employee-dashboard.php"
+        id="akarIconsdashboard"
+      >
+        <img class="vector-icon74" alt="" src="./public/vector3.svg" />
+      </a>
+      <img class="tablerlogout-icon14" alt="" src="./public/tablerlogout.svg" />
+
+      <a class="leaves14" id="leaves" href="apply-leave-emp.php">Leaves</a>
+      <a
+        class="fluentperson-clock-20-regular14"
+        id="fluentpersonClock20Regular"
+      >
+        <img class="vector-icon75" alt="" src="./public/vector1.svg" />
+      </a>
+      <a style="margin-top: -50px;" class="attendance14">Attendance</a>
+      <a style="margin-top: -50px;" class="uitcalender14">
+        <img class="vector-icon77" alt="" src="./public/vector11.svg" />
+      </a>
+      <div class="oouinext-ltr3"></div>
+    </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+      var $locationText = $(".location");
+
+// Check for geolocation browser support and execute success method
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    geoLocationSuccess,
+    geoLocationError,
+    { timeout: 10000 }
+  );
+} else {
+  alert("your browser doesn't support geolocation");
+}
+function geoLocationSuccess(pos) {
+  // get user lat,long
+  var myLat = pos.coords.latitude,
+    myLng = pos.coords.longitude,
+    loadingTimeout;
+
+  var loading = function () {
+    $locationText.text("fetching...");
+  };
+
+  loadingTimeout = setTimeout(loading, 600);
+
+  var request = $.get(
+    "https://nominatim.openstreetmap.org/reverse?format=json&lat=" +
+      myLat +
+      "&lon=" +
+      myLng
+  )
+    .done(function (data) {
+      if (loadingTimeout) {
+        clearTimeout(loadingTimeout);
+        loadingTimeout = null;
+        $locationText.text(data.display_name);
+      }
+    })
+    .fail(function () {
+      // handle error
+    });
+}
+
+function geoLocationError(error) {
+  var errors = {
+    1: "Permission denied",
+    2: "Position unavailable",
+    3: "Request timeout"
+  };
+  alert("Error: " + errors[error.code]);
+}
+    </script>
+<script>
+  function execCmd(command, value = null) {
+            document.execCommand(command, false, value);
+        }
+
+        function toggleItalic() {
+            execCmd('italic');
+        }
+
+        function toggleOrderedList() {
+            execCmd('insertOrderedList');
+        }
+
+        function changeFontSize(size) {
+            execCmd('fontSize', size);
+        }
+
+        function toggleColorMenu() {
+            var colorMenu = document.getElementById('colorMenu');
+            colorMenu.style.display = (colorMenu.style.display === 'block') ? 'none' : 'block';
+        }
+
+        function createLink() {
+            var url = prompt("Enter the URL:");
+            if (url) {
+                execCmd('createLink', url);
+            }
+        }
+
+        function clearField() {
+            document.getElementById('editor').innerHTML = '';
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function () {
+            var file = this.files[0];
+            var allowedTypes = ['image/png', 'image/jpeg', 'video/mp4', 'audio/mpeg', 'application/pdf'];
+
+            if (allowedTypes.includes(file.type)) {
+                var reader = new FileReader();
+                reader.onload = function (event) {
+                    var fileType = file.type.split('/')[0];
+                    if (fileType === 'image') {
+                        execCmd('insertImage', event.target.result);
+                    } else if (fileType === 'video') {
+                        execCmd('insertVideo', event.target.result);
+                    } else if (fileType === 'audio') {
+                        execCmd('insertAudio', event.target.result);
+                    } else if (fileType === 'application') {
+                        execCmd('insertHtml', '<a href="' + event.target.result + '">Attached File</a>');
+                    }
+                }
+                reader.readAsDataURL(file);
+            } else {
+                alert('Invalid file type. Please select a valid file.');
+            }
+        });
+
+        function updateCount() {
+            var editor = document.getElementById('editor');
+            var content = editor.textContent || editor.innerText;
+            var characterCount = content.length;
+            var wordCount = content.split(/\s+/).filter(Boolean).length;
+            document.getElementById('charCount').textContent = "Characters: " + characterCount;
+            document.getElementById('wordCount').textContent = "Words: " + wordCount;
+        }
+</script>
+    <script>
+      var imgUpload = document.getElementById('upload_imgs')
+  , imgPreview = document.getElementById('img_preview')
+  , imgUploadForm = document.getElementById('img-upload-form')
+  , totalFiles
+  , previewTitle
+  , previewTitleText
+  , img;
+
+imgUpload.addEventListener('change', previewImgs, false);
+imgUploadForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  alert('Images Uploaded! (not really, but it would if this was on your website)');
+}, false);
+
+function previewImgs(event) {
+  totalFiles = imgUpload.files.length;
+  
+  if(!!totalFiles) {
+    imgPreview.classList.remove('quote-imgs-thumbs--hidden');
+    previewTitle = document.createElement('p');
+    previewTitle.style.fontWeight = 'bold';
+    previewTitleText = document.createTextNode(totalFiles + ' Total Images Selected');
+    previewTitle.appendChild(previewTitleText);
+    imgPreview.appendChild(previewTitle);
+  }
+  
+  for(var i = 0; i < totalFiles; i++) {
+    img = document.createElement('img');
+    img.src = URL.createObjectURL(event.target.files[i]);
+    img.classList.add('img-preview-thumb');
+    imgPreview.appendChild(img);
+  }
+}
+      var rectangleLink1 = document.getElementById("rectangleLink1");
+      if (rectangleLink1) {
+        rectangleLink1.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var rectangleLink2 = document.getElementById("rectangleLink2");
+      if (rectangleLink2) {
+        rectangleLink2.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var rectangleLink3 = document.getElementById("rectangleLink3");
+      if (rectangleLink3) {
+        rectangleLink3.addEventListener("click", function (e) {
+          window.location.href = "./attendanceemp.php";
+        });
+      }
+      
+      var records = document.getElementById("records");
+      if (records) {
+        records.addEventListener("click", function (e) {
+          window.location.href = "./punch-i-n.php";
+        });
+      }
+      
+      var punchINOUT = document.getElementById("punchINOUT");
+      if (punchINOUT) {
+        punchINOUT.addEventListener("click", function (e) {
+          window.location.href = "./punchout.php";
+        });
+      }
+      
+      var myAttendence = document.getElementById("myAttendence");
+      if (myAttendence) {
+        myAttendence.addEventListener("click", function (e) {
+          window.location.href = "./attendanceemp.php";
+        });
+      }
+      
+      var anikaHRM = document.getElementById("anikaHRM");
+      if (anikaHRM) {
+        anikaHRM.addEventListener("click", function (e) {
+          window.location.href = "./employee-dashboard.php";
+        });
+      }
+      
+      var attendenceManagement = document.getElementById("attendenceManagement");
+      if (attendenceManagement) {
+        attendenceManagement.addEventListener("click", function (e) {
+          window.location.href = "./employee-dashboard.php";
+        });
+      }
+      
+      var dashboard = document.getElementById("dashboard");
+      if (dashboard) {
+        dashboard.addEventListener("click", function (e) {
+          window.location.href = "./employee-dashboard.php";
+        });
+      }
+      
+      var fluentpeople32Regular = document.getElementById("fluentpeople32Regular");
+      if (fluentpeople32Regular) {
+        fluentpeople32Regular.addEventListener("click", function (e) {
+          window.location.href = "./employee-management.php";
+        });
+      }
+      
+      var employeeList = document.getElementById("employeeList");
+      if (employeeList) {
+        employeeList.addEventListener("click", function (e) {
+          window.location.href = "./employee-management.php";
+        });
+      }
+      
+      var akarIconsdashboard = document.getElementById("akarIconsdashboard");
+      if (akarIconsdashboard) {
+        akarIconsdashboard.addEventListener("click", function (e) {
+          window.location.href = "./employee-dashboard.php";
+        });
+      }
+      
+      var leaves = document.getElementById("leaves");
+      if (leaves) {
+        leaves.addEventListener("click", function (e) {
+          window.location.href = "./leave-management.php";
+        });
+      }
+      
+      var fluentpersonClock20Regular = document.getElementById(
+        "fluentpersonClock20Regular"
+      );
+      if (fluentpersonClock20Regular) {
+        fluentpersonClock20Regular.addEventListener("click", function (e) {
+          window.location.href = "./leave-management.php";
+        });
+      }
+      
+      var onboarding = document.getElementById("onboarding");
+      if (onboarding) {
+        onboarding.addEventListener("click", function (e) {
+          window.location.href = "./onboarding.php";
+        });
+      }
+      
+      var fluentMdl2leaveUser = document.getElementById("fluentMdl2leaveUser");
+      if (fluentMdl2leaveUser) {
+        fluentMdl2leaveUser.addEventListener("click", function (e) {
+          window.location.href = "./onboarding.php";
+        });
+      }
+      </script>
+  </body>
+</html>

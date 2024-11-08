@@ -1,0 +1,520 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-4xl: 23px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-ghostwhite: #f6f5fb;
+  --color-white: #fff;
+  --color-mediumseagreen: #45c380;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-black: #000;
+  --color-darkslategray: #313131;
+  --color-orangered: #ff5400;
+  --color-bisque: #ffe2c6;
+  --color-gray: #7f7f7f;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-31xl: 50px;
+}
+
+.frame-child16 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  width: 169px;
+  height: 214px;
+}
+.div8,
+.div9 {
+  position: absolute;
+  top: 122px;
+  left: 122px;
+}
+.div9 {
+  top: 149px;
+  left: 134px;
+}
+.mingcuteflight-takeoff-line-icon {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 29.5px);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.casual-leave,
+.total-earned,
+.total-remaining {
+  margin: 0;
+  position: absolute;
+  top: 121px;
+  left: 29px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.casual-leave,
+.total-remaining {
+  top: 148px;
+  left: 15px;
+  width: 116px;
+}
+.casual-leave {
+  top: 91px;
+  left: 29px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  width: 117px;
+  height: 22px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 179px;
+  width: 169px;
+  height: 214px;
+}
+.vector-icon5 {
+  position: absolute;
+  height: 23.36%;
+  top: 12.15%;
+  bottom: 64.49%;
+  left: calc(50% - 26.5px);
+  max-height: 100%;
+  width: 52px;
+  object-fit: cover;
+}
+.sick-leave,
+.total-earned1,
+.total-remaining1 {
+  margin: 0;
+  position: absolute;
+  top: 120px;
+  left: 27px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.sick-leave,
+.total-remaining1 {
+  top: 147px;
+  left: 13px;
+  width: 116px;
+}
+.sick-leave {
+  top: 90px;
+  left: 36px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  width: 117px;
+  height: 22px;
+}
+.div10,
+.div11 {
+  position: absolute;
+  top: 121px;
+  left: 118px;
+}
+.div11 {
+  top: 148px;
+  left: 130px;
+}
+.rectangle-container,
+.vector-icon6 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 169px;
+  height: 214px;
+}
+.vector-icon6 {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 0;
+  transform: scale(1.143);
+}
+.wrapper-vector {
+  position: absolute;
+  height: 21.03%;
+  width: 20.71%;
+  top: 14.95%;
+  right: 39.64%;
+  bottom: 64.02%;
+  left: 39.64%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-earned2,
+.total-leaves,
+.total-remaining2 {
+  margin: 0;
+  position: absolute;
+  top: 121px;
+  left: 28px;
+  display: inline-block;
+  width: 91px;
+  height: 19px;
+}
+.total-leaves,
+.total-remaining2 {
+  top: 148px;
+  left: 14px;
+  width: 117px;
+}
+.total-leaves {
+  top: 91px;
+  left: 30px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  font-family: inherit;
+  height: 22px;
+}
+.div12,
+.div13 {
+  position: absolute;
+  top: 122px;
+  left: 121px;
+}
+.div13 {
+  top: 149px;
+  left: 133px;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 360px;
+  width: 169px;
+  height: 214px;
+}
+.frame-parent {
+  position: absolute;
+  height: calc(100% - 218px);
+  top: 137px;
+  bottom: 81px;
+  left: calc(50% - 175px);
+  width: 352px;
+  overflow-x: auto;
+  color: var(--color-white);
+}
+.logo-1-icon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 41px;
+  height: 38px;
+  object-fit: cover;
+}
+.leaves-list {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 41px;
+  color: inherit;
+}
+.logo-1-parent2 {
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 171px;
+  height: 38px;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+}
+.frame-child19 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.material-symbolsperson-icon2 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-container {
+  position: absolute;
+  top: 25px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+}
+.myleavemob-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fb890d, #f45e17);
+  height: 47px;
+}
+.frame-child20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 55px;
+  height: 55px;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 75%;
+  width: 83.46%;
+  top: 12.69%;
+  right: 8.08%;
+  bottom: 12.31%;
+  left: 8.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.akar-iconsdashboard1 {
+  text-decoration: none;
+  position: absolute;
+  top: 36px;
+  left: 135px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon8 {
+  position: absolute;
+  height: 68.89%;
+  width: 87.41%;
+  top: 15.56%;
+  right: 6.3%;
+  bottom: 15.56%;
+  left: 6.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentpeople-32-regular1 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 79px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon9 {
+  position: absolute;
+  height: 85.19%;
+  width: 85.19%;
+  top: 10%;
+  right: 4.81%;
+  bottom: 4.81%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluentperson-clock-20-regular1 {
+  text-decoration: none;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.vector-icon10 {
+  position: absolute;
+  height: 95.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 4.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fluent-mdl2leave-user1 {
+  text-decoration: none;
+  position: absolute;
+  top: 35px;
+  left: 190px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.52%;
+  right: 8.15%;
+  bottom: 8.15%;
+  left: 8.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.arcticonsgoogle-pay1,
+.uitcalender1 {
+  position: absolute;
+  top: 35px;
+  overflow: hidden;
+}
+.uitcalender1 {
+  text-decoration: none;
+  left: 246px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.arcticonsgoogle-pay1 {
+  left: 302px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.ellipse-parent1 {
+  position: absolute;
+  bottom: 7px;
+  left: calc(50% - 165px);
+  width: 332px;
+  height: 65px;
+}
+.myleavemob-item {
+  position: absolute;
+  width: 100%;
+  top: 68px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(89.89deg, #fb880e, #f55f17);
+  height: 41px;
+}
+.frame-child21,
+.rectangle-a {
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.rectangle-a {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 158.5px);
+  border-radius: var(--br-31xl);
+  width: 77px;
+  height: 24px;
+}
+.frame-child21 {
+  left: calc(50% - 78.5px);
+}
+.frame-child21,
+.frame-child22,
+.frame-child23 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 12px);
+  border-radius: var(--br-31xl);
+  width: 77px;
+  height: 24px;
+}
+.frame-child22 {
+  left: calc(50% + 1.5px);
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.frame-child23 {
+  left: calc(50% + 81.5px);
+  background-color: var(--color-bisque);
+}
+.leaves-list1 {
+  left: calc(50% - 145.5px);
+  color: inherit;
+  width: 57px;
+  cursor: pointer;
+}
+.apply-leave,
+.assign-leave,
+.leaves-list1,
+.my-leaves {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 6px);
+  display: inline-block;
+  height: 11px;
+}
+.assign-leave {
+  left: calc(50% - 71.5px);
+  color: inherit;
+  width: 62px;
+  cursor: pointer;
+}
+.apply-leave,
+.my-leaves {
+  width: 57px;
+}
+.apply-leave {
+  left: calc(50% + 12.5px);
+  color: inherit;
+  cursor: pointer;
+}
+.my-leaves {
+  left: calc(50% + 96.5px);
+  color: var(--color-orangered);
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 77px;
+  left: calc(50% - 158px);
+  width: 317px;
+  height: 24px;
+  font-size: var(--font-size-3xs);
+}
+.myleavemob {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 789px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}
